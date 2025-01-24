@@ -42,6 +42,10 @@ public class Attributes : MonoBehaviour
 
     public int AttackSpeed;
 
+    public string DamageType; 
+
+    public float SightDistance; 
+
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -94,7 +98,8 @@ public class Attributes : MonoBehaviour
             case WeaponType.Spear:
                 AttackPower = 1 * ((float)Strength / 10);
                 AttackSpeed = 100;
-                AttackDistance = 1.5f; 
+                AttackDistance = 1.5f;
+                DamageType = "piercing"; 
                 break;
 
             default:
@@ -104,5 +109,6 @@ public class Attributes : MonoBehaviour
                 break; 
         }
 
+        SightDistance = Wisdom * 10; 
     }
 }
