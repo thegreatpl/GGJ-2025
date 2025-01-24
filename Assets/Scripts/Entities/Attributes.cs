@@ -2,6 +2,14 @@ using UnityEngine;
 
 public class Attributes : MonoBehaviour
 {
+    public int MaxHP;
+
+    public int CurrentHP;
+
+    public float MovementSpeed;
+
+
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
