@@ -2,11 +2,24 @@ using UnityEngine;
 
 public class Attributes : MonoBehaviour
 {
-    public int MaxHP;
+    /// <summary>
+    /// what team this entity is on. 
+    /// </summary>
+    public string Faction; 
 
-    public int CurrentHP;
+
+    public float MaxHP;
+
+    public float CurrentHP;
 
     public float MovementSpeed;
+
+
+    public float AttackDistance; 
+
+    public float AttackPower; 
+
+    public int AttackSpeed;
 
 
 
@@ -20,5 +33,18 @@ public class Attributes : MonoBehaviour
     void Update()
     {
         
+    }
+
+
+    public void DealDamage(float damage, string type)
+    {
+        CurrentHP -= damage;
+        if (CurrentHP < 0) 
+            Death();
+    }
+
+    public void Death()
+    {
+
     }
 }
