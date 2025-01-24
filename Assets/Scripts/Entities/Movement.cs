@@ -98,7 +98,7 @@ public class Movement : MonoBehaviour
             var attribute = hit.rigidbody?.gameObject?.GetComponent<Attributes>();
             if (attribute != null && attribute.Faction != Attributes.Faction)
             {
-                attribute.DealDamage(Attributes.AttackPower, type);
+                attribute.DealDamage(Attributes.AttackPower, type, Attributes);
             }
         }
         if (hits.Length > 0)
