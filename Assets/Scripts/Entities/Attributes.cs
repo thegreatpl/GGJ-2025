@@ -1,5 +1,10 @@
 using UnityEngine;
 
+public enum WeaponType
+{
+    Spear
+}
+
 public class Attributes : MonoBehaviour
 {
     /// <summary>
@@ -18,6 +23,8 @@ public class Attributes : MonoBehaviour
     public int Wisdom;
 
     public int Intelligence; 
+
+    public WeaponType Weapon;
 
 
     public int CurrentExp; 
@@ -40,7 +47,6 @@ public class Attributes : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        MaxHP = Constitution;
         CurrentExp = 0;
 
         CalculateValues();
@@ -79,7 +85,24 @@ public class Attributes : MonoBehaviour
 
     public void CalculateValues()
     {
-        MovementSpeed = (float)Agility / 100; 
+        MovementSpeed = (float)Agility / 1000;
+
+        MaxHP = Constitution * Level;
+
+        switch (Weapon)
+        {
+            case WeaponType.Spear:
+                AttackPower = 1 * ((float)Strength / 10);
+                AttackSpeed = 100;
+                AttackDistance = 1.5f; 
+                break;
+
+            default:
+                AttackSpeed = 0;
+                AttackDistance = 0;
+                AttackPower = 0;
+                break; 
+        }
 
     }
 }

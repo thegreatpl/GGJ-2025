@@ -180,7 +180,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c705eb508f917a54bb2d1dd4be239688, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Faction: player
+  Faction: 
+  Level: 0
+  Strength: 0
+  Agility: 1
+  Constitution: 1
+  Wisdom: 0
+  Intelligence: 0
+  Weapon: 0
+  CurrentExp: 0
   MaxHP: 10
   CurrentHP: 0
   MovementSpeed: 0.01
