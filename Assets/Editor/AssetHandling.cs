@@ -32,9 +32,10 @@ public class AssetHandling : MonoBehaviour
 
         for (int idx = 0; idx < 32; idx++) 
         {
-            Sprite[] toanimate = new Sprite[12];
-            int instance = idx * 12; 
-            for (int jdx = 0; jdx < 12; jdx++)
+            Sprite[] toanimate = new Sprite[13];
+            int instance = idx * 13;
+            
+            for (int jdx = 0; jdx < 13; jdx++)
             {
 
                 toanimate[jdx] = sprites[instance + jdx];
