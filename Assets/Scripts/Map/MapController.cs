@@ -61,4 +61,16 @@ public class MapController : MonoBehaviour
     {
         return BackGround.GetCellCenterWorld((Vector3Int)cell); 
     }
+
+    public bool IsPassable(Vector3 location)
+    {
+        var loc = BackGround.WorldToCell(location);
+
+        if (!BackGround.HasTile(loc)) 
+            return false;
+
+        if (Walls.HasTile(loc))
+            return false; 
+        return true;
+    }
 }

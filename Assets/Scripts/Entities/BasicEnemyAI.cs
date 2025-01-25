@@ -51,7 +51,8 @@ public class BasicEnemyAI : BaseAI
         }
         else if (TargetLocation.HasValue)
         {
-            if (Vector3.Distance(transform.position, TargetLocation.Value) < 0.1f)
+            if (Vector3.Distance(transform.position, TargetLocation.Value) < 0.1f
+                || Vector3.Distance(transform.position, TargetLocation.Value) > attributes.SightDistance)
             {
                 TargetLocation = null; 
             }
@@ -83,12 +84,13 @@ public class BasicEnemyAI : BaseAI
             return; 
         }
 
-        //random position to wander. Will need to update in the future when the map is started. 
+        //random position to wander. 
         TargetLocation = new Vector3(Random.Range(transform.position.x - (attributes.SightDistance / 2),
-            transform.position.x + (attributes.SightDistance / 2)), Random.Range(transform.position.x - (attributes.SightDistance / 2),
-            transform.position.x + (attributes.SightDistance / 2))); 
+            transform.position.x + (attributes.SightDistance / 2)), Random.Range(transform.position.y - (attributes.SightDistance / 2),
+            transform.position.y + (attributes.SightDistance / 2)));
 
-        
+        if (!GameManager.instance.MapController.IsPassable(TargetLocation.Value))
+            TargetLocation = null; 
     }
 
 }
