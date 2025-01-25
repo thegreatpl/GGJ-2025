@@ -184,7 +184,7 @@ MonoBehaviour:
   Level: 1
   Strength: 10
   Agility: 10
-  Constitution: 100
+  Constitution: 10
   Wisdom: 10
   Intelligence: 10
   Weapon: 0
@@ -197,6 +197,7 @@ MonoBehaviour:
   AttackSpeed: 100
   DamageType: piercing
   SightDistance: 100
+  Gold: 0
 --- !u!114 &5429757460460041124
 MonoBehaviour:
   m_ObjectHideFlags: 0

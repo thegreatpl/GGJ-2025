@@ -67,7 +67,7 @@ public class Attributes : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (CurrentHP < 0)
+        if (CurrentHP <= 0)
         {
             Death();
         }
@@ -77,7 +77,7 @@ public class Attributes : MonoBehaviour
     public void DealDamage(float damage, string type, Attributes attackerAttributes)
     {
         CurrentHP -= damage;
-        if (CurrentHP < 0)
+        if (CurrentHP <= 0)
         {
             attackerAttributes.Gold += Gold; //kill them, get gold. Probably should drop instead but... 
             Death();
@@ -101,7 +101,7 @@ public class Attributes : MonoBehaviour
     {
         MovementSpeed = (float)Agility / 1000;
 
-        MaxHP = Constitution * Level;
+        MaxHP = Constitution * Level * 1.5f;
 
         switch (Weapon)
         {

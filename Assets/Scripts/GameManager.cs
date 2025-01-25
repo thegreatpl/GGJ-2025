@@ -68,7 +68,7 @@ public class GameManager : MonoBehaviour
 
     public void StartGame(string character)
     {
-        instance.StartCoroutine(StartNewGame(character));
+        instance.StartCoroutine(instance.StartNewGame(character));
     }
 
     IEnumerator StartNewGame(string Character)
@@ -90,6 +90,14 @@ public class GameManager : MonoBehaviour
         Player = Instantiate(characterPrefab);
         Camera.transform.position = new Vector3(Player.transform.position.x, Player.transform.position.y, Camera.transform.position.z);
         Camera.transform.SetParent(Player.transform);
+        var attributes = Player.GetComponent<Attributes>();
+        attributes.OnDeath += () =>
+        {
+            var movement = Player.GetComponent<Movement>();
+            movement.Animator.SetTrigger("Death");
+            PlayerDeath(); 
+        };
+
         yield return null; 
         UIController.HideInfoScreen();
         UIController.SetGameUI(true);
@@ -121,12 +129,10 @@ public class GameManager : MonoBehaviour
 
     IEnumerator EndGameWaitForInput()
     {
-        if (Input.anyKeyDown)
-        {
-            UIController.HideInfoScreen();
-            SceneManager.LoadScene("MainMenu", LoadSceneMode.Single); 
-        }
-        else
-            yield return null;
+        yield return new WaitForSeconds(5); 
+         UIController.HideInfoScreen();
+        UIController.SetGameUI(false)  ;
+        SceneManager.LoadScene("MainMenu", LoadSceneMode.Single); 
+       
     }
 }

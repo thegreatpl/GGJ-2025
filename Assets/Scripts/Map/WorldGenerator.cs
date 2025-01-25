@@ -55,12 +55,14 @@ public class WorldGenerator : MonoBehaviour
     {
         if (!generated)
             return;
+        if (GameManager.instance?.Player != null)
+        {
+            var playerloc = GameManager.instance.Player.transform.position;
 
-        var playerloc = GameManager.instance.Player.transform.position; 
-
-        var sector = GetSector((int)playerloc.x / SectorSize, (int)playerloc.y / SectorSize);
-        if (sector.Level < 6)
-            StartCoroutine(RaiseToLevel6(sector));
+            var sector = GetSector((int)playerloc.x / SectorSize, (int)playerloc.y / SectorSize);
+            if (sector.Level < 6)
+                StartCoroutine(RaiseToLevel6(sector));
+        }
     }
 
 
