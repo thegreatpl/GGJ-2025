@@ -1,0 +1,200 @@
+{
+    "name": "KoboldTribe",
+    "tiles": [
+        {
+            "tilename": "grass_1_0",
+            "Layer": "Background",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "tilename": "grass_0_0",
+            "Layer": "Background",
+            "x": 0,
+            "y": 1
+        },
+        {
+            "tilename": "grass_1_0",
+            "Layer": "Background",
+            "x": 0,
+            "y": 2
+        },
+        {
+            "tilename": "grass_0_0",
+            "Layer": "Background",
+            "x": 0,
+            "y": 3
+        },
+        {
+            "tilename": "grass_0_0",
+            "Layer": "Background",
+            "x": 1,
+            "y": 0
+        },
+        {
+            "tilename": "grass_2_0",
+            "Layer": "Background",
+            "x": 1,
+            "y": 1
+        },
+        {
+            "tilename": "grass_0_0",
+            "Layer": "Background",
+            "x": 1,
+            "y": 2
+        },
+        {
+            "tilename": "grass_1_0",
+            "Layer": "Background",
+            "x": 1,
+            "y": 3
+        },
+        {
+            "tilename": "grass_1_0",
+            "Layer": "Background",
+            "x": 2,
+            "y": 0
+        },
+        {
+            "tilename": "grass_1_0",
+            "Layer": "Background",
+            "x": 2,
+            "y": 1
+        },
+        {
+            "tilename": "grass_2_0",
+            "Layer": "Background",
+            "x": 2,
+            "y": 2
+        },
+        {
+            "tilename": "grass_2_0",
+            "Layer": "Background",
+            "x": 2,
+            "y": 3
+        },
+        {
+            "tilename": "grass_0_0",
+            "Layer": "Background",
+            "x": 3,
+            "y": 0
+        },
+        {
+            "tilename": "grass_2_0",
+            "Layer": "Background",
+            "x": 3,
+            "y": 1
+        },
+        {
+            "tilename": "grass_2_0",
+            "Layer": "Background",
+            "x": 3,
+            "y": 2
+        },
+        {
+            "tilename": "grass_1_0",
+            "Layer": "Background",
+            "x": 3,
+            "y": 3
+        },
+        {
+            "tilename": "grass_2_0",
+            "Layer": "Background",
+            "x": 4,
+            "y": 0
+        },
+        {
+            "tilename": "grass_1_0",
+            "Layer": "Background",
+            "x": 4,
+            "y": 1
+        },
+        {
+            "tilename": "grass_0_0",
+            "Layer": "Background",
+            "x": 4,
+            "y": 2
+        },
+        {
+            "tilename": "grass_2_0",
+            "Layer": "Background",
+            "x": 4,
+            "y": 3
+        },
+        {
+            "tilename": "grass_1_0",
+            "Layer": "Background",
+            "x": 5,
+            "y": 0
+        },
+        {
+            "tilename": "grass_2_0",
+            "Layer": "Background",
+            "x": 5,
+            "y": 1
+        },
+        {
+            "tilename": "grass_0_0",
+            "Layer": "Background",
+            "x": 5,
+            "y": 2
+        },
+        {
+            "tilename": "grass_2_0",
+            "Layer": "Background",
+            "x": 5,
+            "y": 3
+        }
+    ],
+    "Biomes": [
+        "Forest",
+        "Grassland"
+    ],
+    "Type": "Building",
+    "prefabs": [
+        {
+            "name": "KoboldSpearman",
+            "location": {
+                "x": 0.8591341972351074,
+                "y": 3.5526950359344484,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "KoboldSpearman",
+            "location": {
+                "x": 1.5318354368209839,
+                "y": 1.9550304412841797,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "KoboldSpearman",
+            "location": {
+                "x": 3.8862900733947756,
+                "y": 3.586329936981201,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "KoboldSpearman",
+            "location": {
+                "x": 5.214873790740967,
+                "y": 1.0805184841156006,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "KoboldSpearman",
+            "location": {
+                "x": 3.482668161392212,
+                "y": 1.9886654615402222,
+                "z": 0.0
+            }
+        }
+    ],
+    "Size": {
+        "x": 6,
+        "y": 4
+    }
+}

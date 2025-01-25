@@ -44,7 +44,8 @@ public class GameManager : MonoBehaviour
         if (Camera == null)
             Camera = Camera.main;
 
-        DontDestroyOnLoad(Camera);
+        if (Camera != null)
+            DontDestroyOnLoad(Camera);
 
         StartCoroutine(LoadGame()); 
     }
@@ -63,7 +64,9 @@ public class GameManager : MonoBehaviour
         yield return StartCoroutine(TileManager.LoadTiles()); 
         yield return StartCoroutine(StructureManager.LoadStructures());
 
-        //yield return StartCoroutine(StartNewGame("Tiffany")); 
+
+        if (SceneManager.GetActiveScene().name != "MainMenu")
+            yield return StartCoroutine(StartNewGame("Tiffany")); 
     }
 
     public void StartGame(string character)
