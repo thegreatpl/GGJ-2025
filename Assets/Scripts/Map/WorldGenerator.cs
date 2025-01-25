@@ -204,7 +204,18 @@ public class WorldGenerator : MonoBehaviour
             //ensure all bubbles internally are connected. 
             foreach (var bubble in sector.Bubbles)
             {
-                int connectionNo = sector.Random.Next(1, sector.Bubbles.Count);
+                foreach(var otherbubble in sector.Bubbles)
+                {
+                    if (bubble.ConnectedBubbles.Contains(otherbubble) || bubble== otherbubble)
+                        continue;
+                    bubble.ConnectedBubbles.Add(otherbubble);
+                    otherbubble.ConnectedBubbles.Add(bubble);
+
+                }
+
+                continue; 
+                //doesn't seem to work as intended. 
+                int connectionNo = sector.Bubbles.Count;// sector.Random.Next(1, sector.Bubbles.Count);
                 bool enoughConnections = false;
                 while (enoughConnections)
                 {
@@ -358,7 +369,7 @@ public class WorldGenerator : MonoBehaviour
         for (int r = 0; r <= Mathf.Floor(bubble.Radius * Mathf.Sqrt(0.5f)); r++)
         {
             int d = (int)Mathf.Floor(Mathf.Sqrt(bubble.Radius * bubble.Radius - r * r));
-            map.SetTile(new Vector3Int(centerTile.x - d, centerTile.y + r), BubbleWallTile, TileLayer.Walls);
+            map.SetTile(new Vector3Int (centerTile.x - d, centerTile.y + r), BubbleWallTile, TileLayer.Walls);
             map.SetTile(new Vector3Int (centerTile.x + d, centerTile.y + r),BubbleWallTile, TileLayer.Walls );
             map.SetTile(new Vector3Int (centerTile.x - d, centerTile.y - r),BubbleWallTile, TileLayer.Walls );
             map.SetTile(new Vector3Int (centerTile.x + d, centerTile.y - r),BubbleWallTile, TileLayer.Walls );
@@ -366,6 +377,15 @@ public class WorldGenerator : MonoBehaviour
             map.SetTile(new Vector3Int (centerTile.x + r, centerTile.y + d),BubbleWallTile, TileLayer.Walls );
             map.SetTile(new Vector3Int (centerTile.x - r, centerTile.y - d),BubbleWallTile, TileLayer.Walls );
             map.SetTile(new Vector3Int (centerTile.x - r, centerTile.y + d),BubbleWallTile, TileLayer.Walls );
+            //walls not available for building on. 
+            bubble.AvailableSpace.Remove( new Vector2Int(centerTile.x - d, centerTile.y + r));
+            bubble.AvailableSpace.Remove( new Vector2Int(centerTile.x + d, centerTile.y + r));
+            bubble.AvailableSpace.Remove( new Vector2Int(centerTile.x - d, centerTile.y - r));
+            bubble.AvailableSpace.Remove( new Vector2Int(centerTile.x + d, centerTile.y - r));
+            bubble.AvailableSpace.Remove( new Vector2Int(centerTile.x + r, centerTile.y - d));
+            bubble.AvailableSpace.Remove( new Vector2Int(centerTile.x + r, centerTile.y + d));
+            bubble.AvailableSpace.Remove( new Vector2Int(centerTile.x - r, centerTile.y - d));
+            bubble.AvailableSpace.Remove( new Vector2Int(centerTile.x - r, centerTile.y + d));
         }
 
     }

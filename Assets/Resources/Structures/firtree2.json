@@ -1,0 +1,99 @@
+{
+    "name": "firtree2",
+    "tiles": [
+        {
+            "tilename": "treetop_3_0",
+            "Layer": "Detail",
+            "x": 0,
+            "y": 2
+        },
+        {
+            "tilename": "treetop_3_1",
+            "Layer": "Detail",
+            "x": 0,
+            "y": 3
+        },
+        {
+            "tilename": "treetop_3_2",
+            "Layer": "Detail",
+            "x": 0,
+            "y": 4
+        },
+        {
+            "tilename": "treetop_3_3",
+            "Layer": "Detail",
+            "x": 0,
+            "y": 5
+        },
+        {
+            "tilename": "trunk_1_1",
+            "Layer": "Wall",
+            "x": 1,
+            "y": 1
+        },
+        {
+            "tilename": "trunk_1_2",
+            "Layer": "Foreground",
+            "x": 1,
+            "y": 2
+        },
+        {
+            "tilename": "treetop_4_0",
+            "Layer": "Detail",
+            "x": 1,
+            "y": 2
+        },
+        {
+            "tilename": "treetop_4_1",
+            "Layer": "Detail",
+            "x": 1,
+            "y": 3
+        },
+        {
+            "tilename": "treetop_4_2",
+            "Layer": "Detail",
+            "x": 1,
+            "y": 4
+        },
+        {
+            "tilename": "treetop_4_3",
+            "Layer": "Detail",
+            "x": 1,
+            "y": 5
+        },
+        {
+            "tilename": "treetop_5_0",
+            "Layer": "Detail",
+            "x": 2,
+            "y": 2
+        },
+        {
+            "tilename": "treetop_5_1",
+            "Layer": "Detail",
+            "x": 2,
+            "y": 3
+        },
+        {
+            "tilename": "treetop_5_2",
+            "Layer": "Detail",
+            "x": 2,
+            "y": 4
+        },
+        {
+            "tilename": "treetop_5_3",
+            "Layer": "Detail",
+            "x": 2,
+            "y": 5
+        }
+    ],
+    "Biomes": [
+        "Forest",
+        "Grassland"
+    ],
+    "Type": "Tree",
+    "prefabs": [],
+    "Size": {
+        "x": 3,
+        "y": 6
+    }
+}

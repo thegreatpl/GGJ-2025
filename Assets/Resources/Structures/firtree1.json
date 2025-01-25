@@ -1,0 +1,81 @@
+{
+    "name": "firtree1",
+    "tiles": [
+        {
+            "tilename": "treetop_0_1",
+            "Layer": "Detail",
+            "x": 0,
+            "y": 2
+        },
+        {
+            "tilename": "treetop_0_2",
+            "Layer": "Detail",
+            "x": 0,
+            "y": 3
+        },
+        {
+            "tilename": "treetop_0_3",
+            "Layer": "Detail",
+            "x": 0,
+            "y": 4
+        },
+        {
+            "tilename": "trunk_1_1",
+            "Layer": "Wall",
+            "x": 1,
+            "y": 1
+        },
+        {
+            "tilename": "trunk_1_2",
+            "Layer": "Foreground",
+            "x": 1,
+            "y": 2
+        },
+        {
+            "tilename": "treetop_1_1",
+            "Layer": "Detail",
+            "x": 1,
+            "y": 2
+        },
+        {
+            "tilename": "treetop_1_2",
+            "Layer": "Detail",
+            "x": 1,
+            "y": 3
+        },
+        {
+            "tilename": "treetop_1_3",
+            "Layer": "Detail",
+            "x": 1,
+            "y": 4
+        },
+        {
+            "tilename": "treetop_2_1",
+            "Layer": "Detail",
+            "x": 2,
+            "y": 2
+        },
+        {
+            "tilename": "treetop_2_2",
+            "Layer": "Detail",
+            "x": 2,
+            "y": 3
+        },
+        {
+            "tilename": "treetop_2_3",
+            "Layer": "Detail",
+            "x": 2,
+            "y": 4
+        }
+    ],
+    "Biomes": [
+        "Forest",
+        "Grassland"
+    ],
+    "Type": "Tree",
+    "prefabs": [],
+    "Size": {
+        "x": 3,
+        "y": 6
+    }
+}

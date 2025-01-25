@@ -101,10 +101,9 @@ public class Movement : MonoBehaviour
                 attribute.DealDamage(Attributes.AttackPower, type, Attributes);
             }
         }
-        if (hits.Length > 0)
-        {
-            attackCooldown = Attributes.AttackSpeed;
-            Animator.SetTrigger("ThrustAttack"); 
-        }
+       
+        attackCooldown = Attributes.AttackSpeed;
+        Animator.SetTrigger("ThrustAttack"); 
+        
     }
 }

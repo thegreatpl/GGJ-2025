@@ -7,7 +7,8 @@ public enum TileLayer
 {
     Background, 
     Walls, 
-    Foreground
+    Foreground, 
+    Detail
 }
 
 public class MapController : MonoBehaviour
@@ -19,7 +20,9 @@ public class MapController : MonoBehaviour
 
     public Tilemap Walls;
 
-    public Tilemap Foreground; 
+    public Tilemap Foreground;
+
+    public Tilemap Detail; 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -47,12 +50,15 @@ public class MapController : MonoBehaviour
             case TileLayer.Foreground:
                 Foreground.SetTile(location, tile);
                 break;
+                case TileLayer.Detail:
+                Detail.SetTile(location, tile);
+                break;
         }
     }
 
 
     public Vector3 CellToWorld(Vector2Int cell)
     {
-        return BackGround.CellToWorld((Vector3Int)cell); 
+        return BackGround.GetCellCenterWorld((Vector3Int)cell); 
     }
 }
