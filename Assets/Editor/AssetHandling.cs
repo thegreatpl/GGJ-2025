@@ -1,14 +1,16 @@
 using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using UnityEditor;
+using UnityEditor.U2D.Sprites;
 using UnityEngine;
 using UnityEngine.U2D.Animation;
 
 public class AssetHandling : MonoBehaviour
 {
 
-
+    #region Character sprites
     [MenuItem("AssetImport/Import Character Sprites")]
     public static void ImportCharacterSprites()
     {
@@ -132,4 +134,84 @@ public class AssetHandling : MonoBehaviour
         }
 
     }
+
+    #endregion
+
+    #region Tilemap
+
+    [MenuItem("AssetImport/Import Tiles")]
+    public static void ImportTiles()
+    {
+        string direct = "Assets/Resources/Tilemaps";
+        var files = Directory.GetFiles(direct)
+                .Where(x => new string[] { ".png", ".jpg" }.Contains(Path.GetExtension(x))).ToList();
+
+        foreach (var file in files)
+        {
+            var name = Path.GetFileNameWithoutExtension(file);
+
+
+            TextureImporter ti = AssetImporter.GetAtPath(file) as TextureImporter;
+            ti.isReadable = true;
+            ti.spritePixelsPerUnit = 32;
+            ti.filterMode = FilterMode.Point;
+            ti.spriteImportMode = SpriteImportMode.Multiple;
+
+            AssetDatabase.ImportAsset(file, ImportAssetOptions.ForceUpdate);
+
+
+            var myTexture = AssetDatabase.LoadAssetAtPath<Texture2D>(file);
+
+
+            var factory = new SpriteDataProviderFactories();
+            factory.Init();
+            var dataProvider = factory.GetSpriteEditorDataProviderFromObject(myTexture);
+            dataProvider.InitSpriteEditorDataProvider();
+
+            /* Use the data provider */
+
+
+            int SliceWidth = 32;
+            int SliceHeight = 32;
+
+            var spriteRects = new List<SpriteRect>();
+            for (int i = 0; i < myTexture.width; i += SliceWidth)
+            {
+                for (int j = 0; j < myTexture.height; j += SliceHeight)
+                {
+                    var newSprite = new SpriteRect()
+                    {
+                        name = $"{name}_i_j",
+                        spriteID = GUID.Generate(),
+                        rect = new Rect(i, j, SliceWidth, SliceHeight)
+                    };
+                    spriteRects.Add(newSprite);
+                    var spriteNameFileIdDataProvider = dataProvider.GetDataProvider<ISpriteNameFileIdDataProvider>();
+                    var nameFileIdPairs = spriteNameFileIdDataProvider.GetNameFileIdPairs().ToList();
+                    nameFileIdPairs.Add(new SpriteNameFileIdPair(newSprite.name, newSprite.spriteID));
+                    spriteNameFileIdDataProvider.SetNameFileIdPairs(nameFileIdPairs);
+                }
+            }
+
+            // Write the updated data back to the data provider
+            dataProvider.SetSpriteRects(spriteRects.ToArray());
+
+            // Note: This section is only for Unity 2021.2 and newer
+            // Register the new Sprite Rect's name and GUID with the ISpriteNameFileIdDataProvider
+
+            // End of Unity 2021.2 and newer section
+
+
+            // Apply the changes made to the data provider
+            dataProvider.Apply();
+
+            // Reimport the asset to have the changes applied
+            var assetImporter = dataProvider.targetObject as AssetImporter;
+            assetImporter.SaveAndReimport();
+
+        }
+    }
+
+
+    #endregion
 }
