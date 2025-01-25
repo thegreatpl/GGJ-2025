@@ -1,3 +1,5 @@
+https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles
+
 Lanea Zimmerman (AKA Sharm)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 NOTE: These assets by Leana Zimmerman are also available under the OGA-BY 3.0 License. -Medicine Storm 4/12/2022
@@ -99,3 +101,7 @@ Castle work:
  - castle_outside.png
  - castlefloors_outside.png
  - castle_lightsources.png
+ 
+ https://opengameart.org/content/lpc-adobe-town-set
+ Copyright/Attribution Notice: 
+"Adobe Town Set" Artist: bluecarrot16 License: CC-BY 3.0 / GPL 3.0 / GPL 2.0 / OGA-BY 3.0 Please link to page on opengameart. Based on "[LPC] Adobe Building Set" Artist: Sharm (Lanea Zimmerman) Contributor: William.Thompsonj (William Thompson) License: CC-BY 3.0 / GPL 3.0 / GPL 2.0 / OGA-BY 3.0 http://opengameart.org/content/lpc-adobe-building-set

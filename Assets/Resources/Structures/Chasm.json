@@ -1,0 +1,488 @@
+{
+    "name": "Chasm",
+    "tiles": [
+        {
+            "tilename": "dirt2_1_2",
+            "Layer": "Background",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "tilename": "hole_0_1",
+            "Layer": "Wall",
+            "x": 0,
+            "y": 1
+        },
+        {
+            "tilename": "dirt2_1_2",
+            "Layer": "Background",
+            "x": 0,
+            "y": 1
+        },
+        {
+            "tilename": "hole_0_2",
+            "Layer": "Wall",
+            "x": 0,
+            "y": 2
+        },
+        {
+            "tilename": "dirt2_1_2",
+            "Layer": "Background",
+            "x": 0,
+            "y": 2
+        },
+        {
+            "tilename": "hole_0_2",
+            "Layer": "Wall",
+            "x": 0,
+            "y": 3
+        },
+        {
+            "tilename": "dirt2_1_2",
+            "Layer": "Background",
+            "x": 0,
+            "y": 3
+        },
+        {
+            "tilename": "hole_0_2",
+            "Layer": "Wall",
+            "x": 0,
+            "y": 4
+        },
+        {
+            "tilename": "dirt2_1_2",
+            "Layer": "Background",
+            "x": 0,
+            "y": 4
+        },
+        {
+            "tilename": "hole_0_2",
+            "Layer": "Wall",
+            "x": 0,
+            "y": 5
+        },
+        {
+            "tilename": "dirt2_1_2",
+            "Layer": "Background",
+            "x": 0,
+            "y": 5
+        },
+        {
+            "tilename": "hole_0_3",
+            "Layer": "Wall",
+            "x": 0,
+            "y": 6
+        },
+        {
+            "tilename": "dirt2_1_2",
+            "Layer": "Background",
+            "x": 0,
+            "y": 6
+        },
+        {
+            "tilename": "dirt2_1_2",
+            "Layer": "Background",
+            "x": 1,
+            "y": 0
+        },
+        {
+            "tilename": "hole_1_1",
+            "Layer": "Wall",
+            "x": 1,
+            "y": 1
+        },
+        {
+            "tilename": "dirt2_1_2",
+            "Layer": "Background",
+            "x": 1,
+            "y": 1
+        },
+        {
+            "tilename": "hole_1_2",
+            "Layer": "Wall",
+            "x": 1,
+            "y": 2
+        },
+        {
+            "tilename": "hole_1_2",
+            "Layer": "Wall",
+            "x": 1,
+            "y": 3
+        },
+        {
+            "tilename": "hole_1_2",
+            "Layer": "Wall",
+            "x": 1,
+            "y": 4
+        },
+        {
+            "tilename": "dirt2_1_2",
+            "Layer": "Background",
+            "x": 1,
+            "y": 4
+        },
+        {
+            "tilename": "hole_1_2",
+            "Layer": "Wall",
+            "x": 1,
+            "y": 5
+        },
+        {
+            "tilename": "dirt2_1_2",
+            "Layer": "Background",
+            "x": 1,
+            "y": 5
+        },
+        {
+            "tilename": "hole_1_3",
+            "Layer": "Wall",
+            "x": 1,
+            "y": 6
+        },
+        {
+            "tilename": "dirt2_1_2",
+            "Layer": "Background",
+            "x": 1,
+            "y": 6
+        },
+        {
+            "tilename": "dirt2_1_2",
+            "Layer": "Background",
+            "x": 2,
+            "y": 0
+        },
+        {
+            "tilename": "hole_1_1",
+            "Layer": "Wall",
+            "x": 2,
+            "y": 1
+        },
+        {
+            "tilename": "dirt2_1_2",
+            "Layer": "Background",
+            "x": 2,
+            "y": 1
+        },
+        {
+            "tilename": "hole_1_2",
+            "Layer": "Wall",
+            "x": 2,
+            "y": 2
+        },
+        {
+            "tilename": "hole_1_2",
+            "Layer": "Wall",
+            "x": 2,
+            "y": 3
+        },
+        {
+            "tilename": "hole_1_4",
+            "Layer": "Wall",
+            "x": 2,
+            "y": 4
+        },
+        {
+            "tilename": "dirt2_1_2",
+            "Layer": "Background",
+            "x": 2,
+            "y": 4
+        },
+        {
+            "tilename": "hole_2_2",
+            "Layer": "Wall",
+            "x": 2,
+            "y": 5
+        },
+        {
+            "tilename": "dirt2_1_2",
+            "Layer": "Background",
+            "x": 2,
+            "y": 5
+        },
+        {
+            "tilename": "hole_2_3",
+            "Layer": "Wall",
+            "x": 2,
+            "y": 6
+        },
+        {
+            "tilename": "dirt2_1_2",
+            "Layer": "Background",
+            "x": 2,
+            "y": 6
+        },
+        {
+            "tilename": "dirt2_1_2",
+            "Layer": "Background",
+            "x": 3,
+            "y": 0
+        },
+        {
+            "tilename": "hole_2_1",
+            "Layer": "Wall",
+            "x": 3,
+            "y": 1
+        },
+        {
+            "tilename": "dirt2_1_2",
+            "Layer": "Background",
+            "x": 3,
+            "y": 1
+        },
+        {
+            "tilename": "hole_2_2",
+            "Layer": "Wall",
+            "x": 3,
+            "y": 2
+        },
+        {
+            "tilename": "dirt2_1_2",
+            "Layer": "Background",
+            "x": 3,
+            "y": 2
+        },
+        {
+            "tilename": "hole_1_5",
+            "Layer": "Wall",
+            "x": 3,
+            "y": 3
+        },
+        {
+            "tilename": "dirt2_1_2",
+            "Layer": "Background",
+            "x": 3,
+            "y": 3
+        },
+        {
+            "tilename": "hole_1_3",
+            "Layer": "Wall",
+            "x": 3,
+            "y": 4
+        },
+        {
+            "tilename": "dirt2_1_2",
+            "Layer": "Background",
+            "x": 3,
+            "y": 4
+        },
+        {
+            "tilename": "dirt2_1_2",
+            "Layer": "Background",
+            "x": 3,
+            "y": 5
+        },
+        {
+            "tilename": "dirt2_1_2",
+            "Layer": "Background",
+            "x": 3,
+            "y": 6
+        },
+        {
+            "tilename": "hole_0_1",
+            "Layer": "Wall",
+            "x": 4,
+            "y": 0
+        },
+        {
+            "tilename": "dirt2_1_2",
+            "Layer": "Background",
+            "x": 4,
+            "y": 0
+        },
+        {
+            "tilename": "hole_0_2",
+            "Layer": "Wall",
+            "x": 4,
+            "y": 1
+        },
+        {
+            "tilename": "dirt2_1_2",
+            "Layer": "Background",
+            "x": 4,
+            "y": 1
+        },
+        {
+            "tilename": "hole_0_2",
+            "Layer": "Wall",
+            "x": 4,
+            "y": 2
+        },
+        {
+            "tilename": "dirt2_1_2",
+            "Layer": "Background",
+            "x": 4,
+            "y": 2
+        },
+        {
+            "tilename": "hole_2_5",
+            "Layer": "Wall",
+            "x": 4,
+            "y": 3
+        },
+        {
+            "tilename": "dirt2_1_2",
+            "Layer": "Background",
+            "x": 4,
+            "y": 3
+        },
+        {
+            "tilename": "hole_1_3",
+            "Layer": "Wall",
+            "x": 4,
+            "y": 4
+        },
+        {
+            "tilename": "dirt2_1_2",
+            "Layer": "Background",
+            "x": 4,
+            "y": 4
+        },
+        {
+            "tilename": "dirt2_1_2",
+            "Layer": "Background",
+            "x": 4,
+            "y": 5
+        },
+        {
+            "tilename": "dirt2_1_2",
+            "Layer": "Background",
+            "x": 4,
+            "y": 6
+        },
+        {
+            "tilename": "hole_1_1",
+            "Layer": "Wall",
+            "x": 5,
+            "y": 0
+        },
+        {
+            "tilename": "dirt2_1_2",
+            "Layer": "Background",
+            "x": 5,
+            "y": 0
+        },
+        {
+            "tilename": "hole_1_2",
+            "Layer": "Wall",
+            "x": 5,
+            "y": 1
+        },
+        {
+            "tilename": "hole_1_2",
+            "Layer": "Wall",
+            "x": 5,
+            "y": 2
+        },
+        {
+            "tilename": "hole_1_4",
+            "Layer": "Wall",
+            "x": 5,
+            "y": 3
+        },
+        {
+            "tilename": "dirt2_1_2",
+            "Layer": "Background",
+            "x": 5,
+            "y": 3
+        },
+        {
+            "tilename": "hole_2_3",
+            "Layer": "Wall",
+            "x": 5,
+            "y": 4
+        },
+        {
+            "tilename": "dirt2_1_2",
+            "Layer": "Background",
+            "x": 5,
+            "y": 4
+        },
+        {
+            "tilename": "dirt2_1_2",
+            "Layer": "Background",
+            "x": 5,
+            "y": 5
+        },
+        {
+            "tilename": "dirt2_1_2",
+            "Layer": "Background",
+            "x": 5,
+            "y": 6
+        },
+        {
+            "tilename": "hole_2_1",
+            "Layer": "Wall",
+            "x": 6,
+            "y": 0
+        },
+        {
+            "tilename": "dirt2_1_2",
+            "Layer": "Background",
+            "x": 6,
+            "y": 0
+        },
+        {
+            "tilename": "hole_2_2",
+            "Layer": "Wall",
+            "x": 6,
+            "y": 1
+        },
+        {
+            "tilename": "dirt2_1_2",
+            "Layer": "Background",
+            "x": 6,
+            "y": 1
+        },
+        {
+            "tilename": "hole_2_2",
+            "Layer": "Wall",
+            "x": 6,
+            "y": 2
+        },
+        {
+            "tilename": "dirt2_1_2",
+            "Layer": "Background",
+            "x": 6,
+            "y": 2
+        },
+        {
+            "tilename": "hole_2_3",
+            "Layer": "Wall",
+            "x": 6,
+            "y": 3
+        },
+        {
+            "tilename": "dirt2_1_2",
+            "Layer": "Background",
+            "x": 6,
+            "y": 3
+        },
+        {
+            "tilename": "dirt2_1_2",
+            "Layer": "Background",
+            "x": 6,
+            "y": 4
+        },
+        {
+            "tilename": "dirt2_1_2",
+            "Layer": "Background",
+            "x": 6,
+            "y": 5
+        },
+        {
+            "tilename": "dirt2_1_2",
+            "Layer": "Background",
+            "x": 6,
+            "y": 6
+        }
+    ],
+    "Biomes": [
+        "Dirtlands"
+    ],
+    "Type": "Building",
+    "prefabs": [],
+    "Size": {
+        "x": 7,
+        "y": 7
+    }
+}

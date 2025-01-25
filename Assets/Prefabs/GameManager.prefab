@@ -372,6 +372,7 @@ MonoBehaviour:
   MaxBubblesPerSector: 5
   MinBubbleSize: 5
   MaxBubbleSize: 20
+  Spawn: {x: 0, y: 0, z: 0}
 --- !u!114 &5393048388928686140
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -391,6 +392,12 @@ MonoBehaviour:
   - Name: KoboldSpearman
     Type: Entities
     prefab: {fileID: 6523210380783748876, guid: 1fc99b7e19e308241953bba6d4e210e7, type: 3}
+  - Name: OrcWarrior
+    Type: Entities
+    prefab: {fileID: 6523210380783748876, guid: e0f69f3e6b93f8741b9f57d6206d797b, type: 3}
+  - Name: SkeletonWarrior
+    Type: Entities
+    prefab: {fileID: 6523210380783748876, guid: 864ec9223e1d0d543aad5d618bf0fd35, type: 3}
   - Name: Tiffany
     Type: Entities
     prefab: {fileID: 4267772376070005245, guid: 6b743772122e4a74faa3e1c311c42fb9, type: 3}

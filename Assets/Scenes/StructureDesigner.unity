@@ -730,8 +730,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StructureName: 
   Biomes:
-  - Forest
-  - Grassland
+  - Dirtlands
   Type: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

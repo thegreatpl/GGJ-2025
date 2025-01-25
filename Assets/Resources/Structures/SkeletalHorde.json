@@ -1,0 +1,199 @@
+{
+    "name": "SkeletalHorde",
+    "tiles": [
+        {
+            "tilename": "dirt2_1_2",
+            "Layer": "Background",
+            "x": 2,
+            "y": 0
+        },
+        {
+            "tilename": "dirt2_1_0",
+            "Layer": "Background",
+            "x": 2,
+            "y": 1
+        },
+        {
+            "tilename": "dirt2_2_0",
+            "Layer": "Background",
+            "x": 2,
+            "y": 2
+        },
+        {
+            "tilename": "dirt2_1_0",
+            "Layer": "Background",
+            "x": 2,
+            "y": 3
+        },
+        {
+            "tilename": "dirt2_1_0",
+            "Layer": "Background",
+            "x": 3,
+            "y": 0
+        },
+        {
+            "tilename": "dirt2_2_0",
+            "Layer": "Background",
+            "x": 3,
+            "y": 1
+        },
+        {
+            "tilename": "dirt2_2_0",
+            "Layer": "Background",
+            "x": 3,
+            "y": 2
+        },
+        {
+            "tilename": "dirt2_2_0",
+            "Layer": "Background",
+            "x": 3,
+            "y": 3
+        },
+        {
+            "tilename": "dirt2_2_0",
+            "Layer": "Background",
+            "x": 4,
+            "y": 0
+        },
+        {
+            "tilename": "dirt2_1_0",
+            "Layer": "Background",
+            "x": 4,
+            "y": 1
+        },
+        {
+            "tilename": "dirt2_1_0",
+            "Layer": "Background",
+            "x": 4,
+            "y": 2
+        },
+        {
+            "tilename": "dirt2_1_2",
+            "Layer": "Background",
+            "x": 4,
+            "y": 3
+        },
+        {
+            "tilename": "dirt2_1_2",
+            "Layer": "Background",
+            "x": 5,
+            "y": 0
+        },
+        {
+            "tilename": "dirt2_2_0",
+            "Layer": "Background",
+            "x": 5,
+            "y": 1
+        },
+        {
+            "tilename": "dirt2_0_0",
+            "Layer": "Background",
+            "x": 5,
+            "y": 2
+        },
+        {
+            "tilename": "dirt2_1_0",
+            "Layer": "Background",
+            "x": 5,
+            "y": 3
+        },
+        {
+            "tilename": "dirt2_1_0",
+            "Layer": "Background",
+            "x": 6,
+            "y": 0
+        },
+        {
+            "tilename": "dirt2_1_0",
+            "Layer": "Background",
+            "x": 6,
+            "y": 1
+        },
+        {
+            "tilename": "dirt2_1_0",
+            "Layer": "Background",
+            "x": 6,
+            "y": 2
+        },
+        {
+            "tilename": "dirt2_2_0",
+            "Layer": "Background",
+            "x": 6,
+            "y": 3
+        }
+    ],
+    "Biomes": [
+        "Dirtlands"
+    ],
+    "Type": "Building",
+    "prefabs": [
+        {
+            "name": "SkeletonWarrior",
+            "location": {
+                "x": 2.990000009536743,
+                "y": 3.619999885559082,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "SkeletonWarrior",
+            "location": {
+                "x": 4.373823642730713,
+                "y": 3.652644634246826,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "SkeletonWarrior",
+            "location": {
+                "x": 6.000871181488037,
+                "y": 3.584851026535034,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "SkeletonWarrior",
+            "location": {
+                "x": 2.927560806274414,
+                "y": 1.8222171068191529,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "SkeletonWarrior",
+            "location": {
+                "x": 6.136459827423096,
+                "y": 1.2120736837387086,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "SkeletonWarrior",
+            "location": {
+                "x": 4.486813068389893,
+                "y": 2.20638108253479,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "SkeletonWarrior",
+            "location": {
+                "x": 3.650692939758301,
+                "y": 1.1442806720733643,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "SkeletonWarrior",
+            "location": {
+                "x": 6.18165397644043,
+                "y": 2.5227506160736086,
+                "z": 0.0
+            }
+        }
+    ],
+    "Size": {
+        "x": 7,
+        "y": 4
+    }
+}
