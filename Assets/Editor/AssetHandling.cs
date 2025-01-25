@@ -10,6 +10,36 @@ using UnityEngine.U2D.Animation;
 public class AssetHandling : MonoBehaviour
 {
 
+    [MenuItem("AssetImport/Load Prefabs")]
+    public static void LoadPrefabs()
+    {
+        using (var gameManagerobj = new PrefabUtility.EditPrefabContentsScope("Assets/Prefabs/GameManager.prefab"))
+        {
+            var prefabs = new List<PrefabDef>();
+
+            var directories = Directory.GetDirectories("Assets/Prefabs");
+            foreach (var d in directories)
+            {
+                var files = Directory.GetFiles(d).Where(x => Path.GetExtension(x) == ".prefab").ToList();
+                foreach (var f in files)
+                {
+                    Debug.Log(f);
+                    var name = Path.GetFileNameWithoutExtension(f);
+                    prefabs.Add(new PrefabDef()
+                    {
+                        Name = name,
+                        prefab = (GameObject)AssetDatabase.LoadAssetAtPath(f, typeof(GameObject)),
+                        Type = Path.GetFileName(d)
+                    });
+                }
+            }
+
+            var gamemanager = gameManagerobj.prefabContentsRoot.GetComponent<PrefabManager>();
+            gamemanager.Prefabs = prefabs;
+
+        }
+    }
+
     #region Character sprites
     [MenuItem("AssetImport/Import Character Sprites")]
     public static void ImportCharacterSprites()

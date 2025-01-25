@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class PrefabManager : MonoBehaviour
@@ -17,13 +18,21 @@ public class PrefabManager : MonoBehaviour
     {
         
     }
+
+
+    public GameObject GetPrefab(string name)
+    {
+        return Prefabs.FirstOrDefault(x => x.Name == name).prefab;
+    }
 }
 
 
 [Serializable]
 public class PrefabDef
 {
-    public string name;
+    public string Name;
+
+    public string Type; 
 
     public GameObject prefab;
 }

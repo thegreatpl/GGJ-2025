@@ -51,6 +51,8 @@ MonoBehaviour:
   TileManager: {fileID: 0}
   MapController: {fileID: 0}
   WorldGenerator: {fileID: 0}
+  PrefabManager: {fileID: 0}
+  StructureManager: {fileID: 0}
   Player: {fileID: 0}
 --- !u!114 &-5735883686943861001
 MonoBehaviour:
@@ -119,6 +121,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77276309b55873a4585d30a192f9b5d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Prefabs:
+  - Name: Entity
+    Type: Entities
+    prefab: {fileID: 6523210380783748876, guid: c62c3b3422053fa428ac7b5ddaddfdbb, type: 3}
+  - Name: KoboldSpearman
+    Type: Entities
+    prefab: {fileID: 6523210380783748876, guid: 1fc99b7e19e308241953bba6d4e210e7, type: 3}
+  - Name: Portal
+    Type: Objects
+    prefab: {fileID: 2091390326307028379, guid: 6bce8d847b87e634887039c1f7a15b56, type: 3}
 --- !u!114 &2867141940103976958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -131,3 +143,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7563fd9c33fe94981b087c05508cfd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  StructureDefs: []
