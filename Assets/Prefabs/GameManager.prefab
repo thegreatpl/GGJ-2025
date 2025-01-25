@@ -81,6 +81,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   map: {fileID: 0}
   tileManager: {fileID: 0}
+  PrefabManager: {fileID: 0}
   BubbleWallTile: {fileID: 11400000, guid: 1d56a050c5529de42886b658efe7c24c, type: 2}
   BubbleWallTileName: holek_0_0
   BiomeDefs:
@@ -105,10 +106,10 @@ MonoBehaviour:
     - dirt2_1_2
     Tiles: []
   Seed: 0
-  SectorSize: 500
+  SectorSize: 150
   MaxBubblesPerSector: 10
-  MinBubbleSize: 10
-  MaxBubbleSize: 100
+  MinBubbleSize: 5
+  MaxBubbleSize: 25
 --- !u!114 &5393048388928686140
 MonoBehaviour:
   m_ObjectHideFlags: 0

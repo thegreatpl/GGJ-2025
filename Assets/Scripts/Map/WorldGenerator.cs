@@ -308,11 +308,11 @@ public class WorldGenerator : MonoBehaviour
 
                 var portal1 = Instantiate(portalPrefab, map.CellToWorld(new Vector2Int(portalLoc.x, portalLoc.y+ 1)), portalPrefab.transform.rotation);
                 var portal1Scr = portal1.GetComponent<PortalScript>();
-                portal1Scr.PortalTo = map.CellToWorld(portalLoc);
+                portal1Scr.PortalTo = map.CellToWorld(otherportalLoc);
 
                 var portal2 = Instantiate(portalPrefab, map.CellToWorld(new Vector2Int(otherportalLoc.x, otherportalLoc.y + 1)), portalPrefab.transform.rotation);
                 var portal2Scr = portal2.GetComponent<PortalScript>();
-                portal1Scr.PortalTo = map.CellToWorld(otherportalLoc);
+                portal2Scr.PortalTo = map.CellToWorld(portalLoc);
 
                 bubble.PortalsGenerated.Add(otherbubble.CentrePoint);
                 otherbubble.PortalsGenerated.Add(bubble.CentrePoint);
