@@ -340,8 +340,11 @@ public class WorldGenerator : MonoBehaviour
 
 
         //try to generate structures. 
-
-
+        foreach(var bubble in sector.Bubbles)
+        {
+            GenerateStructures(bubble);
+        }
+        yield return null; 
         //generate trees
         foreach (var bubble in sector.Bubbles)
         {
@@ -404,6 +407,29 @@ public class WorldGenerator : MonoBehaviour
 
     }
 
+    void GenerateStructures(Bubble bubble)
+    {
+        var posibilities = StructureManager.StructureDefs.Where(x => x.Biomes.Contains(bubble.BiomeName) && x.Type == "Building");
+        if (!posibilities.Any())
+        {
+            return;
+        }
+
+        var attempts = bubble.Radius;
+        for (int idx = 0; idx < attempts; idx++)
+        {
+            var structure = posibilities.RandomElement(bubble.Sector.Random);
+
+            var basloc = bubble.AvailableSpace.RandomElement(bubble.Sector.Random);
+
+            if (bubble.IsAvailable(basloc, structure.Size))
+            {
+                ApplyStructure(basloc, structure);
+                bubble.RemoveAvailable(basloc, structure.Size);
+            }
+        }
+    }
+
     void GenerateTrees(Bubble bubble)
     {
         var treeposibilities = StructureManager.StructureDefs.Where(x => x.Biomes.Contains(bubble.BiomeName) && x.Type == "Tree");
@@ -456,7 +482,6 @@ public class WorldGenerator : MonoBehaviour
             var pre = PrefabManager.GetPrefab(prefab.name);
             if (pre != null)
             {
-
                 Instantiate(pre, map.CellToWorld(location) + prefab.location, pre.transform.rotation);
             }
         }
