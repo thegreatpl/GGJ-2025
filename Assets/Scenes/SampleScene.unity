@@ -318,7 +318,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -968861551, guid: 8d262bb9497ab6b42a4484e9971700df, type: 3}
+  m_Sprite: {fileID: 792424286, guid: 8d262bb9497ab6b42a4484e9971700df, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -389,7 +389,7 @@ MonoBehaviour:
   Level: 1
   Strength: 10
   Agility: 10
-  Constitution: 10
+  Constitution: 100
   Wisdom: 10
   Intelligence: 10
   Weapon: 0
@@ -450,10 +450,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed8b1ae4e4e52b34ea557c1c11e076fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CategoryHash: 0.000000011598237
-  m_labelHash: 0.027716199
+  m_CategoryHash: 2.7732363e-15
+  m_labelHash: 4.3762703e-15
   m_SpriteKey: 0
-  m_SpriteHash: 182168245
+  m_SpriteHash: 242956056
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
