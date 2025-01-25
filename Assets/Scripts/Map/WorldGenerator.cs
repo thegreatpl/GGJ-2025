@@ -41,7 +41,10 @@ public class WorldGenerator : MonoBehaviour
     public Dictionary<Vector2Int, Sector> Sectors;
 
 
-    private bool generated = false; 
+    private bool generated = false;
+
+
+    public Vector3 Spawn = Vector3.zero;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -95,6 +98,26 @@ public class WorldGenerator : MonoBehaviour
         yield return null;
         yield return StartCoroutine(RaiseToLevel6(GetSector(0, 0))); 
         yield return null;
+        var firstsect = GetSector(0, 0);
+        bool spawnPlaced = false;
+        do
+        {
+            var bubble = firstsect.Bubbles.RandomElement(firstsect.Random);
+
+            var structure = StructureManager.StructureDefs.FirstOrDefault(x => x.name == "ExitPortal");
+
+            var basloc = bubble.AvailableSpace.RandomElement(bubble.Sector.Random);
+
+            if (bubble.IsAvailable(basloc, structure.Size))
+            {
+                ApplyStructure(basloc, structure);
+                bubble.RemoveAvailable(basloc, structure.Size);
+                Spawn = map.CellToWorld(basloc);
+                spawnPlaced = true;
+
+            }
+
+            } while (!spawnPlaced);
 
         generated = true; 
     }
@@ -409,7 +432,7 @@ public class WorldGenerator : MonoBehaviour
 
     void GenerateStructures(Bubble bubble)
     {
-        var posibilities = StructureManager.StructureDefs.Where(x => x.Biomes.Contains(bubble.BiomeName) && x.Type == "Building");
+        var posibilities = StructureManager.StructureDefs.Where(x => x.Biomes.Contains(bubble.BiomeName) && x.Type == "Building").ToList();
         if (!posibilities.Any())
         {
             return;
@@ -426,6 +449,13 @@ public class WorldGenerator : MonoBehaviour
             {
                 ApplyStructure(basloc, structure);
                 bubble.RemoveAvailable(basloc, structure.Size);
+
+                //only one of each structure per bubble. 
+                posibilities.Remove(structure);
+                if (!posibilities.Any())
+                {
+                    break;
+                }
             }
         }
     }

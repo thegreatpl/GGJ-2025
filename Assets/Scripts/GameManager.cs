@@ -95,6 +95,7 @@ public class GameManager : MonoBehaviour
             StartCoroutine(EndGameWaitForInput());
         }
         Player = Instantiate(characterPrefab);
+        Player.transform.position = WorldGenerator.Spawn; 
         Camera.transform.position = new Vector3(Player.transform.position.x, Player.transform.position.y, Camera.transform.position.z);
         Camera.transform.SetParent(Player.transform);
         var attributes = Player.GetComponent<Attributes>();
