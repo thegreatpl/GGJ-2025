@@ -119,7 +119,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: castle_lightsources_i_j
+      name: castle_lightsources_0_0
       rect:
         serializedVersion: 2
         x: 0
@@ -134,14 +134,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a97cfe78a309962449e31659b0db7e4d
-      internalID: 1321387365
+      spriteID: 219d1826c2fc6324198ca9d48a12fd69
+      internalID: 1721556283
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle_lightsources_i_j
+      name: castle_lightsources_0_1
       rect:
         serializedVersion: 2
         x: 0
@@ -156,14 +156,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43a7a6c0cc522d64d82072e60ee33f70
-      internalID: -1053423263
+      spriteID: 0a0f81e718e412c409841a3a7e254405
+      internalID: 1253757822
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle_lightsources_i_j
+      name: castle_lightsources_0_2
       rect:
         serializedVersion: 2
         x: 0
@@ -178,14 +178,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba79aaf2c5c126544b569db70e8f4c38
-      internalID: -319304729
+      spriteID: 737c0f36288868e47ae88a1320726a2b
+      internalID: -570273816
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle_lightsources_i_j
+      name: castle_lightsources_0_3
       rect:
         serializedVersion: 2
         x: 0
@@ -200,14 +200,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0c6e8eba4b288440a70a7517b0471f4
-      internalID: 804683546
+      spriteID: cd9d75c6e2926e24db8045f81238bf7b
+      internalID: 1484206042
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle_lightsources_i_j
+      name: castle_lightsources_1_0
       rect:
         serializedVersion: 2
         x: 32
@@ -222,14 +222,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8e3111bc70da2041b5bde8783c6cfe6
-      internalID: -644990043
+      spriteID: 2daa9b8f68d4d404ba5bc67b89a54af5
+      internalID: 1416952755
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle_lightsources_i_j
+      name: castle_lightsources_1_1
       rect:
         serializedVersion: 2
         x: 32
@@ -244,14 +244,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8384b1c2c51e1c46b4e89b0035e36e0
-      internalID: -686065664
+      spriteID: 36b7e474a3b3d754385dc66c61020604
+      internalID: 1609741252
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle_lightsources_i_j
+      name: castle_lightsources_1_2
       rect:
         serializedVersion: 2
         x: 32
@@ -266,14 +266,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1dee6b95d364de94293b67c9758afffb
-      internalID: -20050979
+      spriteID: 7dec8eb92ef210b449de7fa94898b995
+      internalID: -126321559
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle_lightsources_i_j
+      name: castle_lightsources_1_3
       rect:
         serializedVersion: 2
         x: 32
@@ -288,14 +288,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40ad9a0b8e703a147b012719f2cd7b29
-      internalID: 1745998960
+      spriteID: c589f0d11331fa44d93ef8ac4c42359e
+      internalID: -392169392
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle_lightsources_i_j
+      name: castle_lightsources_2_0
       rect:
         serializedVersion: 2
         x: 64
@@ -310,14 +310,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b123fc038501fa4c85f1c686cf116cb
-      internalID: 1431942477
+      spriteID: 1aa8cedfedd0cb64f950138ca1681e3d
+      internalID: -1521098446
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle_lightsources_i_j
+      name: castle_lightsources_2_1
       rect:
         serializedVersion: 2
         x: 64
@@ -332,14 +332,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0f0e5430ed62a3488f7c9d2561a286a
-      internalID: -976761967
+      spriteID: 59c594043f2da514cb93e97aabb49f35
+      internalID: 1117673140
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle_lightsources_i_j
+      name: castle_lightsources_2_2
       rect:
         serializedVersion: 2
         x: 64
@@ -354,14 +354,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7ecdac4dc9180c43b6963402bf77340
-      internalID: -91579485
+      spriteID: 313c59c05db0b874aa4f8130d5711b9b
+      internalID: -847989235
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle_lightsources_i_j
+      name: castle_lightsources_2_3
       rect:
         serializedVersion: 2
         x: 64
@@ -376,14 +376,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07de5cd1ffc2e744b9cc5a73a1756e65
-      internalID: -1794084318
+      spriteID: 94986fd60f9c6654991c65c944f9d170
+      internalID: 1539303804
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle_lightsources_i_j
+      name: castle_lightsources_3_0
       rect:
         serializedVersion: 2
         x: 96
@@ -398,14 +398,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a3eb486b62755b46ba7d546fecc63f3
-      internalID: 547599543
+      spriteID: 7abec9885655c394fb440e6fba9e9cfe
+      internalID: 1720266318
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle_lightsources_i_j
+      name: castle_lightsources_3_1
       rect:
         serializedVersion: 2
         x: 96
@@ -420,14 +420,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9002ac2f07ff4004082768d08f6fd2b5
-      internalID: -102835275
+      spriteID: 4de306fe876833349a6ecf0768e3af8d
+      internalID: 342908135
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle_lightsources_i_j
+      name: castle_lightsources_3_2
       rect:
         serializedVersion: 2
         x: 96
@@ -442,14 +442,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a769994fd3792c498ce1d2fc8f8d5e5
-      internalID: -820056725
+      spriteID: 130b563485a9b9c45821f06f1d9fb2c5
+      internalID: -1853048635
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle_lightsources_i_j
+      name: castle_lightsources_3_3
       rect:
         serializedVersion: 2
         x: 96
@@ -464,14 +464,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6935382905c942b4a83b1ebbb34d54e0
-      internalID: -805272585
+      spriteID: cc27cf5f302d34e448ad43ca707130b6
+      internalID: -1564810900
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle_lightsources_i_j
+      name: castle_lightsources_4_0
       rect:
         serializedVersion: 2
         x: 128
@@ -486,14 +486,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4dd7d682fade9de4684033bd37b290c9
-      internalID: -1754773338
+      spriteID: bcf8bff6c87c2f0479732d0be01edf67
+      internalID: -1569480002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle_lightsources_i_j
+      name: castle_lightsources_4_1
       rect:
         serializedVersion: 2
         x: 128
@@ -508,14 +508,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 866b260fc55f31140ac90f33b62329ed
-      internalID: -238975681
+      spriteID: 4c9b9a15e08edc74d8da437c79363d03
+      internalID: 649181220
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle_lightsources_i_j
+      name: castle_lightsources_4_2
       rect:
         serializedVersion: 2
         x: 128
@@ -530,14 +530,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20e7935cb1b6df14a8bd23363da66ff4
-      internalID: -1365139448
+      spriteID: 9f6cc77efd203bf469a289bc35012e92
+      internalID: 1271710343
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle_lightsources_i_j
+      name: castle_lightsources_4_3
       rect:
         serializedVersion: 2
         x: 128
@@ -552,8 +552,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38cd14dc6fd755d4190ef02aec146f6f
-      internalID: 301795026
+      spriteID: 4b93c7f8c9309c34f8be3bf800e85d86
+      internalID: -627703189
       vertices: []
       indices: 
       edges: []
@@ -574,8 +574,28 @@ TextureImporter:
     nameFileIdTable:
       Assets/Resources/Tilemaps\castle_lightsources.png_i_j: 1999680422
       castle_lightsources_0: -6931647397086120013
+      castle_lightsources_0_0: 1721556283
+      castle_lightsources_0_1: 1253757822
+      castle_lightsources_0_2: -570273816
+      castle_lightsources_0_3: 1484206042
       castle_lightsources_1: 4492729420967984323
+      castle_lightsources_1_0: 1416952755
+      castle_lightsources_1_1: 1609741252
+      castle_lightsources_1_2: -126321559
+      castle_lightsources_1_3: -392169392
       castle_lightsources_2: 8821676587642213544
+      castle_lightsources_2_0: -1521098446
+      castle_lightsources_2_1: 1117673140
+      castle_lightsources_2_2: -847989235
+      castle_lightsources_2_3: 1539303804
+      castle_lightsources_3_0: 1720266318
+      castle_lightsources_3_1: 342908135
+      castle_lightsources_3_2: -1853048635
+      castle_lightsources_3_3: -1564810900
+      castle_lightsources_4_0: -1569480002
+      castle_lightsources_4_1: 649181220
+      castle_lightsources_4_2: 1271710343
+      castle_lightsources_4_3: -627703189
       castle_lightsources_i_j: 1321387365
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0

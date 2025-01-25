@@ -170,7 +170,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: lavarock_i_j
+      name: lavarock_0_0
       rect:
         serializedVersion: 2
         x: 0
@@ -185,14 +185,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 411362e289579864a8b25ec5a3fc6602
-      internalID: 352894651
+      spriteID: 75d3da3c15fe2e74ba97bc0a31b9e81e
+      internalID: 1048739478
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lavarock_i_j
+      name: lavarock_0_1
       rect:
         serializedVersion: 2
         x: 0
@@ -207,14 +207,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 648f5129da3f5c245aa416dc85f52383
-      internalID: -191679966
+      spriteID: 35e919f6b3dc79541946835830e58655
+      internalID: -955979606
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lavarock_i_j
+      name: lavarock_0_2
       rect:
         serializedVersion: 2
         x: 0
@@ -229,14 +229,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0021bca26b27194a928588bacc5408c
-      internalID: -1526288116
+      spriteID: 47aa09b254738874682037f62e324acd
+      internalID: 506518605
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lavarock_i_j
+      name: lavarock_0_3
       rect:
         serializedVersion: 2
         x: 0
@@ -251,14 +251,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8efb6f61b00c6b4e801b918728c8594
-      internalID: -1183675309
+      spriteID: af11e40bb25b7c7498c6aba49dc6074f
+      internalID: -330397051
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lavarock_i_j
+      name: lavarock_0_4
       rect:
         serializedVersion: 2
         x: 0
@@ -273,14 +273,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c31b0518a2a5b3a4884a5c23edadc65f
-      internalID: 1061814000
+      spriteID: 96276edf9df971d41a0c19ca968d4eec
+      internalID: 1750608880
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lavarock_i_j
+      name: lavarock_0_5
       rect:
         serializedVersion: 2
         x: 0
@@ -295,14 +295,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d6a4caa3a0e47243b79200d52bce473
-      internalID: 1358424235
+      spriteID: c89576902e9ac0a47a1e1f571eda0f4d
+      internalID: -101517268
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lavarock_i_j
+      name: lavarock_1_0
       rect:
         serializedVersion: 2
         x: 32
@@ -317,14 +317,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af08ac0201a592d4dadf6e66094c9724
-      internalID: 1867810747
+      spriteID: e7569ab09d83ec8458f313d0138dbcad
+      internalID: 176443663
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lavarock_i_j
+      name: lavarock_1_1
       rect:
         serializedVersion: 2
         x: 32
@@ -339,14 +339,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5076e672df3d9994396a4486719d1e2a
-      internalID: 1098365828
+      spriteID: a644447ebf87e844285a3dc1daebe9f1
+      internalID: 1748943414
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lavarock_i_j
+      name: lavarock_1_2
       rect:
         serializedVersion: 2
         x: 32
@@ -361,14 +361,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a7e0dec00e7e824da5d731cf45fd742
-      internalID: 209625628
+      spriteID: 65fbc9044f81a6147be13cc7a4628bbc
+      internalID: -134437925
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lavarock_i_j
+      name: lavarock_1_3
       rect:
         serializedVersion: 2
         x: 32
@@ -383,14 +383,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2b967187fe8e834d94d4632c18f2c39
-      internalID: 826640355
+      spriteID: 4c8bc08e102a76941aa6ee73f8db5493
+      internalID: 5638047
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lavarock_i_j
+      name: lavarock_1_4
       rect:
         serializedVersion: 2
         x: 32
@@ -405,14 +405,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9ba8303f5a508b4e99af0152cbb59d4
-      internalID: 1940494391
+      spriteID: ac5203cb9781ae544a3932d5a8e54254
+      internalID: -890904811
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lavarock_i_j
+      name: lavarock_1_5
       rect:
         serializedVersion: 2
         x: 32
@@ -427,14 +427,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 839e43a1ee9201745a8f6fd933ecd93c
-      internalID: -1504086804
+      spriteID: 5180b5c054c79d744ae4d1a5aee311ce
+      internalID: 2017865738
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lavarock_i_j
+      name: lavarock_2_0
       rect:
         serializedVersion: 2
         x: 64
@@ -449,14 +449,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c28c59d29e86a684c8c01561134b1134
-      internalID: 1471059080
+      spriteID: bd1e08ac452469740ad2cc5ab330debb
+      internalID: -294563304
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lavarock_i_j
+      name: lavarock_2_1
       rect:
         serializedVersion: 2
         x: 64
@@ -471,14 +471,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b573b2655171024ebc91eb0d5763686
-      internalID: 53160896
+      spriteID: a15bbe920cd517e48ba3d1556c79de46
+      internalID: -1383623060
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lavarock_i_j
+      name: lavarock_2_2
       rect:
         serializedVersion: 2
         x: 64
@@ -493,14 +493,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a212b8d53726fc4fb96632fa35e7c6b
-      internalID: 472695849
+      spriteID: 28317f66ee705f64395517a70c9f2625
+      internalID: 1090711115
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lavarock_i_j
+      name: lavarock_2_3
       rect:
         serializedVersion: 2
         x: 64
@@ -515,14 +515,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 263c0c9b6599fa545ba7add153ce830c
-      internalID: -825512768
+      spriteID: eccbacd13a1d5024186fad3197dde19a
+      internalID: -1894155799
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lavarock_i_j
+      name: lavarock_2_4
       rect:
         serializedVersion: 2
         x: 64
@@ -537,14 +537,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d7ac4a712c79234992c161b90a076d2
-      internalID: -295844128
+      spriteID: 73a80617f6cc83949b4e8bc0976da75b
+      internalID: -791829136
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lavarock_i_j
+      name: lavarock_2_5
       rect:
         serializedVersion: 2
         x: 64
@@ -559,8 +559,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da26085e8cdb47443a6c8fdd4b32fad2
-      internalID: 1805039970
+      spriteID: 7a338e316b935924fb6ea1be40a2d990
+      internalID: -1923538214
       vertices: []
       indices: 
       edges: []
@@ -581,6 +581,12 @@ TextureImporter:
     nameFileIdTable:
       Assets/Resources/Tilemaps\lavarock.png_i_j: 255282747
       lavarock_0: -4156894962134131338
+      lavarock_0_0: 1048739478
+      lavarock_0_1: -955979606
+      lavarock_0_2: 506518605
+      lavarock_0_3: -330397051
+      lavarock_0_4: 1750608880
+      lavarock_0_5: -101517268
       lavarock_1: 7547009598420608399
       lavarock_10: 4131822091967117582
       lavarock_11: -5998629185831030666
@@ -592,7 +598,19 @@ TextureImporter:
       lavarock_17: -1934182683347955752
       lavarock_18: -548360964563943113
       lavarock_19: -274437114868223802
+      lavarock_1_0: 176443663
+      lavarock_1_1: 1748943414
+      lavarock_1_2: -134437925
+      lavarock_1_3: 5638047
+      lavarock_1_4: -890904811
+      lavarock_1_5: 2017865738
       lavarock_2: -2840441308968170825
+      lavarock_2_0: -294563304
+      lavarock_2_1: -1383623060
+      lavarock_2_2: 1090711115
+      lavarock_2_3: -1894155799
+      lavarock_2_4: -791829136
+      lavarock_2_5: -1923538214
       lavarock_3: -4734575883050963849
       lavarock_4: 1811696215637689448
       lavarock_5: 7321920440414853216

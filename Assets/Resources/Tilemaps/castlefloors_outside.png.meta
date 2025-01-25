@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: castlefloors_outside_i_j
+      name: castlefloors_outside_0_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,14 +128,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9da97164c3da2a44acc7f51c4d2d2cf
-      internalID: 1521972445
+      spriteID: c7c63e7f09d13024dbb4431141fcf9b4
+      internalID: -1776049497
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlefloors_outside_i_j
+      name: castlefloors_outside_0_1
       rect:
         serializedVersion: 2
         x: 0
@@ -150,14 +150,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a695c219b1f0634469207253c313610b
-      internalID: -674902229
+      spriteID: 853b529d213f45c4f9c67fee9bcb05db
+      internalID: 2059884768
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlefloors_outside_i_j
+      name: castlefloors_outside_0_2
       rect:
         serializedVersion: 2
         x: 0
@@ -172,14 +172,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b19320a163a0b745aa05f2a87e19063
-      internalID: -136320439
+      spriteID: 42411bdb8da725e4a81778998ed48115
+      internalID: 1734260214
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlefloors_outside_i_j
+      name: castlefloors_outside_0_3
       rect:
         serializedVersion: 2
         x: 0
@@ -194,14 +194,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70fee5ba8e8532f42bef68ba8a049ca5
-      internalID: 271181129
+      spriteID: b3ab725bb757d154e9ae991a70e2d798
+      internalID: -23132763
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlefloors_outside_i_j
+      name: castlefloors_outside_0_4
       rect:
         serializedVersion: 2
         x: 0
@@ -216,14 +216,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 043559e5b1dea4c41ab0e5624a9a3e91
-      internalID: 110736386
+      spriteID: eab594b00ba1e5e44a4f649cb579f63b
+      internalID: 1274792281
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlefloors_outside_i_j
+      name: castlefloors_outside_1_0
       rect:
         serializedVersion: 2
         x: 32
@@ -238,14 +238,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebfcfa0fe3a0d1b4bbc891dc53f722a1
-      internalID: -857287278
+      spriteID: 05c6499e530010a419c3c8adc4cf7edd
+      internalID: -199163524
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlefloors_outside_i_j
+      name: castlefloors_outside_1_1
       rect:
         serializedVersion: 2
         x: 32
@@ -260,14 +260,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bac2d190ea87f8946baf49774295272a
-      internalID: -856958501
+      spriteID: 224e598abfacff846aa7a6380a21b5e7
+      internalID: 1313852239
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlefloors_outside_i_j
+      name: castlefloors_outside_1_2
       rect:
         serializedVersion: 2
         x: 32
@@ -282,14 +282,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55bb64bdf5e56c14c92aaf1bc6f5a12d
-      internalID: -1933248818
+      spriteID: 330f70394a7f77047907c7adf2107968
+      internalID: 1691527215
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlefloors_outside_i_j
+      name: castlefloors_outside_1_3
       rect:
         serializedVersion: 2
         x: 32
@@ -304,14 +304,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 189bbd7f749aeaa48990820e1afa3a88
-      internalID: 928399667
+      spriteID: 9121eb8b9b92b1c4e9c06995acfa7a71
+      internalID: -2125499040
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlefloors_outside_i_j
+      name: castlefloors_outside_1_4
       rect:
         serializedVersion: 2
         x: 32
@@ -326,14 +326,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9334241ee348c24b8e28f69bae990d8
-      internalID: -1197516159
+      spriteID: 79f307c86b90e094c8624fbbee60b4da
+      internalID: 1688608287
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlefloors_outside_i_j
+      name: castlefloors_outside_2_0
       rect:
         serializedVersion: 2
         x: 64
@@ -348,14 +348,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 554f02b22f7358d4ca4ab0f8d67896b4
-      internalID: -491331326
+      spriteID: b1f159aa52fecd542994aa7eec58d60b
+      internalID: -1039823506
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlefloors_outside_i_j
+      name: castlefloors_outside_2_1
       rect:
         serializedVersion: 2
         x: 64
@@ -370,14 +370,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75936a6ed58fc0f479e7f553e5176f17
-      internalID: 1859180619
+      spriteID: 181b827dc491ba94bbc02095dd39cc0a
+      internalID: 801747235
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlefloors_outside_i_j
+      name: castlefloors_outside_2_2
       rect:
         serializedVersion: 2
         x: 64
@@ -392,14 +392,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d77af5900d6628443bdea78de0b31da8
-      internalID: -1658679936
+      spriteID: 7ff5c747147bd944685fd1f7f99f0a00
+      internalID: -520818965
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlefloors_outside_i_j
+      name: castlefloors_outside_2_3
       rect:
         serializedVersion: 2
         x: 64
@@ -414,14 +414,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 05acc2cfe248e9a4092f7ec7d2339c0f
-      internalID: -1551496941
+      spriteID: 43e5e0051760ced4ea6fe48e0b1b69cd
+      internalID: 681129667
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlefloors_outside_i_j
+      name: castlefloors_outside_2_4
       rect:
         serializedVersion: 2
         x: 64
@@ -436,14 +436,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a862130c4e29e124791c4f8f1d793c16
-      internalID: 440887476
+      spriteID: 822620b37f54c914e8a85b57cfc0cb99
+      internalID: -2020437339
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlefloors_outside_i_j
+      name: castlefloors_outside_3_0
       rect:
         serializedVersion: 2
         x: 96
@@ -458,14 +458,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 314e64beac37f6c4eb21cd7efecb9dfa
-      internalID: 1333016340
+      spriteID: 2a7671d19359cef4db80a099e8624f55
+      internalID: 705898972
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlefloors_outside_i_j
+      name: castlefloors_outside_3_1
       rect:
         serializedVersion: 2
         x: 96
@@ -480,14 +480,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec4269de6192adc4e8358c5907d9dd58
-      internalID: -935041306
+      spriteID: 31165d16516793e439e25a5447dc1eb1
+      internalID: 992069281
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlefloors_outside_i_j
+      name: castlefloors_outside_3_2
       rect:
         serializedVersion: 2
         x: 96
@@ -502,14 +502,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3cf27114ead79514ca005a60008ba7b4
-      internalID: 689440197
+      spriteID: 8b168230ddd8a984391916cfb4cd6c3a
+      internalID: 1801961953
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlefloors_outside_i_j
+      name: castlefloors_outside_3_3
       rect:
         serializedVersion: 2
         x: 96
@@ -524,14 +524,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9eba3058253d61249bf02f26b3f1acf0
-      internalID: -885724479
+      spriteID: bcfcfc51bc4e8f341b24e3acf0302b4f
+      internalID: -527335346
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlefloors_outside_i_j
+      name: castlefloors_outside_3_4
       rect:
         serializedVersion: 2
         x: 96
@@ -546,8 +546,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba9b5bcb357520f4eb77e39f5f82e817
-      internalID: -321123905
+      spriteID: ffc080d22e9f03c48b3db09e46b751ef
+      internalID: -860358971
       vertices: []
       indices: 
       edges: []
@@ -568,6 +568,45 @@ TextureImporter:
     nameFileIdTable:
       Assets/Resources/Tilemaps\castlefloors_outside.png_i_j: -1539715532
       castlefloors_outside_0: -7872926931710222932
+      castlefloors_outside_0_0: -1776049497
+      castlefloors_outside_0_1: 2059884768
+      castlefloors_outside_0_128: -1378500492
+      castlefloors_outside_0_2: 1734260214
+      castlefloors_outside_0_3: -23132763
+      castlefloors_outside_0_32: -847517077
+      castlefloors_outside_0_4: 1274792281
+      castlefloors_outside_0_64: 43725076
+      castlefloors_outside_0_96: -1743303570
+      castlefloors_outside_1_0: -199163524
+      castlefloors_outside_1_1: 1313852239
+      castlefloors_outside_1_2: 1691527215
+      castlefloors_outside_1_3: -2125499040
+      castlefloors_outside_1_4: 1688608287
+      castlefloors_outside_2_0: -1039823506
+      castlefloors_outside_2_1: 801747235
+      castlefloors_outside_2_2: -520818965
+      castlefloors_outside_2_3: 681129667
+      castlefloors_outside_2_4: -2020437339
+      castlefloors_outside_32_0: -2001861748
+      castlefloors_outside_32_128: 1138070960
+      castlefloors_outside_32_32: -452767331
+      castlefloors_outside_32_64: 1639202698
+      castlefloors_outside_32_96: -294773688
+      castlefloors_outside_3_0: 705898972
+      castlefloors_outside_3_1: 992069281
+      castlefloors_outside_3_2: 1801961953
+      castlefloors_outside_3_3: -527335346
+      castlefloors_outside_3_4: -860358971
+      castlefloors_outside_64_0: -1571974962
+      castlefloors_outside_64_128: 1165062933
+      castlefloors_outside_64_32: -1406628275
+      castlefloors_outside_64_64: -1312453497
+      castlefloors_outside_64_96: 1105562148
+      castlefloors_outside_96_0: -1414284005
+      castlefloors_outside_96_128: 374260210
+      castlefloors_outside_96_32: -924251536
+      castlefloors_outside_96_64: -1745588648
+      castlefloors_outside_96_96: -139263646
       castlefloors_outside_i_j: 1521972445
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0

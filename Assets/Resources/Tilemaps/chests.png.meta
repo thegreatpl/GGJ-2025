@@ -116,7 +116,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: chests_i_j
+      name: chests_0_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,14 +131,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1df6004312c8c89449d9ee798c71d1ea
-      internalID: 546080609
+      spriteID: 95d8538edd5eb1541968b7cf47ca8e18
+      internalID: 1808263329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chests_i_j
+      name: chests_0_1
       rect:
         serializedVersion: 2
         x: 0
@@ -153,14 +153,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16dac1f046102434fb1d9868325caf42
-      internalID: -1463039519
+      spriteID: 4c41b478e515ff041ae8d0fddfac84ed
+      internalID: -449245862
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chests_i_j
+      name: chests_0_2
       rect:
         serializedVersion: 2
         x: 0
@@ -175,14 +175,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9503845897883e42a036e9053c525f7
-      internalID: 1071154273
+      spriteID: 1453065393fa5464caa45b43f084f4b8
+      internalID: -1749259225
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chests_i_j
+      name: chests_1_0
       rect:
         serializedVersion: 2
         x: 32
@@ -197,14 +197,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02e6ebf7d4d6d794b94990fecc8119c7
-      internalID: 1123828774
+      spriteID: b463992e75c99c04e944db6c9642a630
+      internalID: 472059911
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chests_i_j
+      name: chests_1_1
       rect:
         serializedVersion: 2
         x: 32
@@ -219,14 +219,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebb475a47dc1a7e41a894a3b385c6f84
-      internalID: 624924783
+      spriteID: c833e2012b001ad4da273b9f488af288
+      internalID: -2132612805
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chests_i_j
+      name: chests_1_2
       rect:
         serializedVersion: 2
         x: 32
@@ -241,8 +241,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a74e8338de14bb4382e5c0c893747f9
-      internalID: -1821537994
+      spriteID: 55ba285b5509c1246b45b69d7bf1fe2b
+      internalID: -83643731
       vertices: []
       indices: 
       edges: []
@@ -263,7 +263,13 @@ TextureImporter:
     nameFileIdTable:
       Assets/Resources/Tilemaps\chests.png_i_j: -2130782620
       chests_0: -4128261327662975977
+      chests_0_0: 1808263329
+      chests_0_1: -449245862
+      chests_0_2: -1749259225
       chests_1: 7098417591714748056
+      chests_1_0: 472059911
+      chests_1_1: -2132612805
+      chests_1_2: -83643731
       chests_i_j: 546080609
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0

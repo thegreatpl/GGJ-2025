@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cup_i_j
+      name: cup_0_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,14 +128,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac24be3982b24bc4c8f830aed22df97b
-      internalID: -1700930451
+      spriteID: dd87a539f852a2f40b504fe07e6db843
+      internalID: -1440102831
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cup_i_j
+      name: cup_0_1
       rect:
         serializedVersion: 2
         x: 0
@@ -150,8 +150,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ecc485419d022b744a4507d1b49c1e1c
-      internalID: 2140508112
+      spriteID: 6273ef6aeae26a742913d1652db61b58
+      internalID: -1323276424
       vertices: []
       indices: 
       edges: []
@@ -172,6 +172,8 @@ TextureImporter:
     nameFileIdTable:
       Assets/Resources/Tilemaps\cup.png_i_j: -1804102003
       cup_0: 9103656482713568619
+      cup_0_0: -1440102831
+      cup_0_1: -1323276424
       cup_i_j: -1700930451
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0

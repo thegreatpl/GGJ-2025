@@ -128,7 +128,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: signs_i_j
+      name: signs_0_0
       rect:
         serializedVersion: 2
         x: 0
@@ -143,14 +143,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9257a58d620eb94caa951f91ca29e2b
-      internalID: -964643595
+      spriteID: cd1f183c33fbda447a4ab714f9f91feb
+      internalID: 1251495867
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: signs_i_j
+      name: signs_0_1
       rect:
         serializedVersion: 2
         x: 0
@@ -165,14 +165,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 255c86621a1a4c04da45a30aa939de56
-      internalID: -17213664
+      spriteID: 2bf37c750f65fad4dae52cf65d2b850b
+      internalID: 1888412870
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: signs_i_j
+      name: signs_1_0
       rect:
         serializedVersion: 2
         x: 32
@@ -187,14 +187,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5de8c8ce734fa3f4cad7be4101a101ce
-      internalID: -357816694
+      spriteID: 7d92a46396a10e040913cb5c64eebb63
+      internalID: 1143838276
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: signs_i_j
+      name: signs_1_1
       rect:
         serializedVersion: 2
         x: 32
@@ -209,14 +209,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 158afd1c3d21ebd4885d15b35aede492
-      internalID: 745250755
+      spriteID: 04fe3a798b913ae45a073378d2d36f1d
+      internalID: -1634248524
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: signs_i_j
+      name: signs_2_0
       rect:
         serializedVersion: 2
         x: 64
@@ -231,14 +231,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17ef5a62860561648bb8db5b5463b038
-      internalID: -1491643504
+      spriteID: 13f45977f52730e4b802d91a3909ee58
+      internalID: 722443758
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: signs_i_j
+      name: signs_2_1
       rect:
         serializedVersion: 2
         x: 64
@@ -253,8 +253,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2c74014a4a942d45a072422efd3ce72
-      internalID: -482520818
+      spriteID: 2a08b87dc71165341ae9268dabbde6ad
+      internalID: -236682407
       vertices: []
       indices: 
       edges: []
@@ -275,8 +275,14 @@ TextureImporter:
     nameFileIdTable:
       Assets/Resources/Tilemaps\signs.png_i_j: -1340171139
       signs_0: 1014312589259936113
+      signs_0_0: 1251495867
+      signs_0_1: 1888412870
       signs_1: 7774597396905839976
+      signs_1_0: 1143838276
+      signs_1_1: -1634248524
       signs_2: 7143536599680955399
+      signs_2_0: 722443758
+      signs_2_1: -236682407
       signs_3: -6303612653606922692
       signs_4: -3183823387430515487
       signs_5: -520509936069157319

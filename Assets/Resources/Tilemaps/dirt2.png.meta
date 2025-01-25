@@ -170,7 +170,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dirt2_i_j
+      name: dirt2_0_0
       rect:
         serializedVersion: 2
         x: 0
@@ -185,14 +185,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c83b9884f5910b14c9939a8a6e41ce21
-      internalID: 391926391
+      spriteID: 937d578e2e2ed2e4ab3f1772623ebe0c
+      internalID: 618620619
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirt2_i_j
+      name: dirt2_0_1
       rect:
         serializedVersion: 2
         x: 0
@@ -207,14 +207,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb651c7450b76fc43898d5ebd0e4af8b
-      internalID: -1985482348
+      spriteID: 0955e53f0d7a6ca40a1f0bcddaccc2c7
+      internalID: 1020951821
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirt2_i_j
+      name: dirt2_0_2
       rect:
         serializedVersion: 2
         x: 0
@@ -229,14 +229,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98c40cecb88c8624abc4bd5f084b3e9b
-      internalID: 199336748
+      spriteID: 652ab58d3e1c61749b77b9828c5e80d1
+      internalID: 869147112
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirt2_i_j
+      name: dirt2_0_3
       rect:
         serializedVersion: 2
         x: 0
@@ -251,14 +251,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28786c3f4e5a0404d8e98757decc2d3a
-      internalID: 1092136578
+      spriteID: eb5701470e1162f4e9d2171d13545061
+      internalID: -382368031
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirt2_i_j
+      name: dirt2_0_4
       rect:
         serializedVersion: 2
         x: 0
@@ -273,14 +273,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b025d9eab7a6d4c4abe688bc87040893
-      internalID: -639895618
+      spriteID: fd7d2044fadb87248a34b3240011c9d0
+      internalID: 1553686164
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirt2_i_j
+      name: dirt2_0_5
       rect:
         serializedVersion: 2
         x: 0
@@ -295,14 +295,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a6831f76f904c44281124b0712cf730
-      internalID: -873012145
+      spriteID: 010ea3c848108054d940a0d9751b966b
+      internalID: -764729646
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirt2_i_j
+      name: dirt2_1_0
       rect:
         serializedVersion: 2
         x: 32
@@ -317,14 +317,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a2a9b36558a3024a94733a85ea8ce31
-      internalID: 1517751886
+      spriteID: c050796e242b9a247a36f083ebf6b438
+      internalID: -160651949
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirt2_i_j
+      name: dirt2_1_1
       rect:
         serializedVersion: 2
         x: 32
@@ -339,14 +339,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b220c89dd3e52b54c9389f3c3d6b524f
-      internalID: -715995475
+      spriteID: 080ce4c880e754c46ab85b0f4a02230b
+      internalID: -1682291374
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirt2_i_j
+      name: dirt2_1_2
       rect:
         serializedVersion: 2
         x: 32
@@ -361,14 +361,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1560aef32a7bf5b4ab7428a0bd8c9a41
-      internalID: -2043599058
+      spriteID: 1882abaef3726f945a6aa4a88c0b0387
+      internalID: -1030382037
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirt2_i_j
+      name: dirt2_1_3
       rect:
         serializedVersion: 2
         x: 32
@@ -383,14 +383,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc60e60b420ee754da08a13db64b1b8f
-      internalID: -167661350
+      spriteID: fe19e609a65db3d4aa1450bcfe52f2c1
+      internalID: 1396112892
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirt2_i_j
+      name: dirt2_1_4
       rect:
         serializedVersion: 2
         x: 32
@@ -405,14 +405,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53fe45793157cf54192ec17d4cd7d23a
-      internalID: -1272652437
+      spriteID: fb59a13cea25cec4eb7cab2d4f190f3c
+      internalID: -1047526289
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirt2_i_j
+      name: dirt2_1_5
       rect:
         serializedVersion: 2
         x: 32
@@ -427,14 +427,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fcafafd0d547b2458d30f6fc121f243
-      internalID: 1066260116
+      spriteID: d84ccdcc1ee060b42bd4291359563f22
+      internalID: -451065913
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirt2_i_j
+      name: dirt2_2_0
       rect:
         serializedVersion: 2
         x: 64
@@ -449,14 +449,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0dd4af3adea97047a5122607cfaa794
-      internalID: -495743212
+      spriteID: 30e6dba7534805c47990fe4ca5fa7009
+      internalID: -2092213757
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirt2_i_j
+      name: dirt2_2_1
       rect:
         serializedVersion: 2
         x: 64
@@ -471,14 +471,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8bd8bdf762350a4a82716076143732a
-      internalID: -1296013606
+      spriteID: 73f3804a4991ec4459e2a2e1b188cd63
+      internalID: -1487819627
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirt2_i_j
+      name: dirt2_2_2
       rect:
         serializedVersion: 2
         x: 64
@@ -493,14 +493,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 379f329efc78abc48a7823c2085cad0b
-      internalID: -1820876464
+      spriteID: 080b6a3f3d629624d82860545149eb62
+      internalID: 1593841639
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirt2_i_j
+      name: dirt2_2_3
       rect:
         serializedVersion: 2
         x: 64
@@ -515,14 +515,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d4005156d2f27a4b81ad229c3790180
-      internalID: -2087431855
+      spriteID: 9f13201d4aff7bd4f89858297464bd05
+      internalID: -603107107
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirt2_i_j
+      name: dirt2_2_4
       rect:
         serializedVersion: 2
         x: 64
@@ -537,14 +537,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c813c31ff96980848b623a38f5cab53a
-      internalID: 233444300
+      spriteID: 6cccabda0911afc4c8a6a7641b5c0232
+      internalID: -347244877
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirt2_i_j
+      name: dirt2_2_5
       rect:
         serializedVersion: 2
         x: 64
@@ -559,8 +559,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b511de98a7bf5734ca9bd78e1292a60e
-      internalID: 1154383112
+      spriteID: 00ad1c586d6bf754bbc31feca2d16600
+      internalID: -1330282869
       vertices: []
       indices: 
       edges: []
@@ -581,6 +581,12 @@ TextureImporter:
     nameFileIdTable:
       Assets/Resources/Tilemaps\dirt2.png_i_j: -1277614607
       dirt2_0: 2778571848849872774
+      dirt2_0_0: 618620619
+      dirt2_0_1: 1020951821
+      dirt2_0_2: 869147112
+      dirt2_0_3: -382368031
+      dirt2_0_4: 1553686164
+      dirt2_0_5: -764729646
       dirt2_1: 6494650607509068763
       dirt2_10: -6818761246754999724
       dirt2_11: -8039037087756923454
@@ -592,7 +598,19 @@ TextureImporter:
       dirt2_17: -3122804169470590260
       dirt2_18: -3517587683251055326
       dirt2_19: 3334271379954697581
+      dirt2_1_0: -160651949
+      dirt2_1_1: -1682291374
+      dirt2_1_2: -1030382037
+      dirt2_1_3: 1396112892
+      dirt2_1_4: -1047526289
+      dirt2_1_5: -451065913
       dirt2_2: -4232097365685025217
+      dirt2_2_0: -2092213757
+      dirt2_2_1: -1487819627
+      dirt2_2_2: 1593841639
+      dirt2_2_3: -603107107
+      dirt2_2_4: -347244877
+      dirt2_2_5: -1330282869
       dirt2_3: 8785991639487724395
       dirt2_4: -7593626369557622825
       dirt2_5: 5355935457445290424

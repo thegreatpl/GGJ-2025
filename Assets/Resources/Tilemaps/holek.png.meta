@@ -119,7 +119,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: holek_i_j
+      name: holek_0_0
       rect:
         serializedVersion: 2
         x: 0
@@ -134,14 +134,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 514f1205d01fa414bbf742544b214470
-      internalID: -144811882
+      spriteID: 9149d8ac54a6b1443a00291c5deb513f
+      internalID: -1309623662
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holek_i_j
+      name: holek_0_1
       rect:
         serializedVersion: 2
         x: 0
@@ -156,14 +156,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 583a3fe236ba1ce498b4e27a5ff67e97
-      internalID: 571130850
+      spriteID: 584a87aeeb44669409144dd6551339d6
+      internalID: -25507502
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holek_i_j
+      name: holek_0_2
       rect:
         serializedVersion: 2
         x: 0
@@ -178,14 +178,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4171c501ff925cb449c312730e803d86
-      internalID: -1556549169
+      spriteID: a97f0547e1c8acd419043ca9a9bdb523
+      internalID: 2081365363
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holek_i_j
+      name: holek_0_3
       rect:
         serializedVersion: 2
         x: 0
@@ -200,14 +200,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29925affb922bb84a87d0862c6704a58
-      internalID: 1944597799
+      spriteID: ecbdb17dd496136488900a2affdfbfab
+      internalID: 471048180
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holek_i_j
+      name: holek_0_4
       rect:
         serializedVersion: 2
         x: 0
@@ -222,14 +222,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10f241311cde4da4c8530f51ea0dee7a
-      internalID: -910221378
+      spriteID: 79dc5dd4b199e8b43a4e765ad39f882d
+      internalID: -475204086
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holek_i_j
+      name: holek_0_5
       rect:
         serializedVersion: 2
         x: 0
@@ -244,14 +244,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 122b09555d1aa5d42806a6a8c72cf26f
-      internalID: 1531315758
+      spriteID: 8a88d84fd4c301f44b0b62ec21efcbd1
+      internalID: -1773637341
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holek_i_j
+      name: holek_1_0
       rect:
         serializedVersion: 2
         x: 32
@@ -266,14 +266,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc0e623b74952ca44b461e86cb2c99da
-      internalID: 323082579
+      spriteID: cc90ca5f94b6ea940ab5d6a8bfe0b0e7
+      internalID: 1362996742
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holek_i_j
+      name: holek_1_1
       rect:
         serializedVersion: 2
         x: 32
@@ -288,14 +288,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6cfb3c187fb747d4986e28918256a0a7
-      internalID: -985733484
+      spriteID: 0212b13ead1092d459237c98c3d29e63
+      internalID: 1125159367
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holek_i_j
+      name: holek_1_2
       rect:
         serializedVersion: 2
         x: 32
@@ -310,14 +310,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19362261348d9084caf367eb00b80464
-      internalID: -748144222
+      spriteID: b670de560c5818f4999341b041d830c2
+      internalID: -554196954
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holek_i_j
+      name: holek_1_3
       rect:
         serializedVersion: 2
         x: 32
@@ -332,14 +332,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f26913a882f34404f9512d8cf98ad495
-      internalID: 67745423
+      spriteID: a7f398c17d4464e4c9d59558cadc40a9
+      internalID: 999193269
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holek_i_j
+      name: holek_1_4
       rect:
         serializedVersion: 2
         x: 32
@@ -354,14 +354,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 244005068c2a5644e8e9e62777362ba1
-      internalID: -78948637
+      spriteID: 5d1ed3150f2ff5b41b0fcf2067d9feb1
+      internalID: 210481178
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holek_i_j
+      name: holek_1_5
       rect:
         serializedVersion: 2
         x: 32
@@ -376,14 +376,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e48c9b1de1c53e43a0dd7910ae50d8a
-      internalID: 94419815
+      spriteID: 59133002ff19291498853005e1f09496
+      internalID: -1819777139
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holek_i_j
+      name: holek_2_0
       rect:
         serializedVersion: 2
         x: 64
@@ -398,14 +398,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce86c86fbc6eac0469a31490cb34161e
-      internalID: 2001229573
+      spriteID: 07a8813e7b179c345b56f98c1da32fbf
+      internalID: -1254301369
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holek_i_j
+      name: holek_2_1
       rect:
         serializedVersion: 2
         x: 64
@@ -420,14 +420,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6efe287f58228744881f39a36766dcf8
-      internalID: 1377697805
+      spriteID: fb148334757adfa4f9af1ac143d89bd2
+      internalID: -221182021
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holek_i_j
+      name: holek_2_2
       rect:
         serializedVersion: 2
         x: 64
@@ -442,14 +442,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01dc20844816b8b4ab935d17c6959a91
-      internalID: -402984566
+      spriteID: b05ba750b799db249b83589aa10bce93
+      internalID: -1836531165
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holek_i_j
+      name: holek_2_3
       rect:
         serializedVersion: 2
         x: 64
@@ -464,14 +464,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 250dc1d67169aa942b177c1bbdb83bf8
-      internalID: 1252616052
+      spriteID: def08be1e4ebb0642aa55020b7e28712
+      internalID: 641299486
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holek_i_j
+      name: holek_2_4
       rect:
         serializedVersion: 2
         x: 64
@@ -486,14 +486,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b31e9acec912421498e971635a085463
-      internalID: -908162157
+      spriteID: dfc61e30565334448a07ec9daa6466bc
+      internalID: -56662274
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holek_i_j
+      name: holek_2_5
       rect:
         serializedVersion: 2
         x: 64
@@ -508,8 +508,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ba7c5d726c9bde4fa8e0c6f4c8139b4
-      internalID: 1676854018
+      spriteID: 3adba18d7fc998c44a0cd49df2e972b2
+      internalID: -388651541
       vertices: []
       indices: 
       edges: []
@@ -530,8 +530,26 @@ TextureImporter:
     nameFileIdTable:
       Assets/Resources/Tilemaps\holek.png_i_j: -999273770
       holek_0: -5014238502105186073
+      holek_0_0: -1309623662
+      holek_0_1: -25507502
+      holek_0_2: 2081365363
+      holek_0_3: 471048180
+      holek_0_4: -475204086
+      holek_0_5: -1773637341
       holek_1: 6401255024622138006
+      holek_1_0: 1362996742
+      holek_1_1: 1125159367
+      holek_1_2: -554196954
+      holek_1_3: 999193269
+      holek_1_4: 210481178
+      holek_1_5: -1819777139
       holek_2: 1423278644219805013
+      holek_2_0: -1254301369
+      holek_2_1: -221182021
+      holek_2_2: -1836531165
+      holek_2_3: 641299486
+      holek_2_4: -56662274
+      holek_2_5: -388651541
       holek_i_j: -144811882
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0

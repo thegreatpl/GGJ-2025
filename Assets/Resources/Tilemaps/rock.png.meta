@@ -131,7 +131,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: rock_i_j
+      name: rock_0_0
       rect:
         serializedVersion: 2
         x: 0
@@ -146,14 +146,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: febf6c76f10db464c8a2547ec84bdd35
-      internalID: 1537606967
+      spriteID: 00b6809d15fb6f2418e4265eef2b360d
+      internalID: 1372594322
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rock_i_j
+      name: rock_1_0
       rect:
         serializedVersion: 2
         x: 32
@@ -168,8 +168,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4cddfa9403c94a84d85eecdaf1e65244
-      internalID: 709515194
+      spriteID: 4c52da0855afcfa4b852b95d33a5d337
+      internalID: 542636765
       vertices: []
       indices: 
       edges: []
@@ -190,7 +190,9 @@ TextureImporter:
     nameFileIdTable:
       Assets/Resources/Tilemaps\rock.png_i_j: 201452852
       rock_0: -2182124076254010665
+      rock_0_0: 1372594322
       rock_1: 2115267796186251350
+      rock_1_0: 542636765
       rock_2: -6546699357316064334
       rock_3: 4414985671160336941
       rock_4: 6745779496355511533

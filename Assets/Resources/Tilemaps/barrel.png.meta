@@ -119,7 +119,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: barrel_i_j
+      name: barrel_0_0
       rect:
         serializedVersion: 2
         x: 0
@@ -134,14 +134,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c71b1804239457443a3f0d8c5003e9d8
-      internalID: 862364616
+      spriteID: 3fa3f5f6a70622b418dd7fcf5c0a35a9
+      internalID: 1349733869
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: barrel_i_j
+      name: barrel_0_1
       rect:
         serializedVersion: 2
         x: 0
@@ -156,14 +156,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b692bbe7de7a8bb458d9fb07d80ffdf3
-      internalID: -1815801058
+      spriteID: 541b76fbaf06a1d40ba8a3f3fe8964f6
+      internalID: -1754365908
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: barrel_i_j
+      name: barrel_1_0
       rect:
         serializedVersion: 2
         x: 32
@@ -178,14 +178,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9bd41b581a680ad41a432e7ab701196c
-      internalID: -418434006
+      spriteID: aa0f0481f1b1f8a4d97cc694f60d223b
+      internalID: 2013522651
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: barrel_i_j
+      name: barrel_1_1
       rect:
         serializedVersion: 2
         x: 32
@@ -200,14 +200,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e93ac6c6b586cd41acd5c8559aebbc0
-      internalID: 1679405819
+      spriteID: 611eaea6dc46d384fa26ca21405e5c9f
+      internalID: -381039940
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: barrel_i_j
+      name: barrel_2_0
       rect:
         serializedVersion: 2
         x: 64
@@ -222,14 +222,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6387d28e4398d504fb394c532f3ffb98
-      internalID: 1076068331
+      spriteID: e4d331ede15c10e4dbfffaa7ac7a566c
+      internalID: -184623429
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: barrel_i_j
+      name: barrel_2_1
       rect:
         serializedVersion: 2
         x: 64
@@ -244,14 +244,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8e62aed8d077074ea01b463c639d286
-      internalID: 1292889908
+      spriteID: 07c3d4d92b03443499b21d31af1337a8
+      internalID: 2026353629
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: barrel_i_j
+      name: barrel_3_0
       rect:
         serializedVersion: 2
         x: 96
@@ -266,14 +266,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f542ddda1245fd4e97edb9f1c459604
-      internalID: 125846211
+      spriteID: 1e1745cb103bad44a95d498cf9a2b291
+      internalID: 2030246577
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: barrel_i_j
+      name: barrel_3_1
       rect:
         serializedVersion: 2
         x: 96
@@ -288,8 +288,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a25b284b26368f459ce6af15605f349
-      internalID: -196912053
+      spriteID: 704e8fb3f0cedec428a098407bacd5af
+      internalID: 780496441
       vertices: []
       indices: 
       edges: []
@@ -310,8 +310,16 @@ TextureImporter:
     nameFileIdTable:
       Assets/Resources/Tilemaps\barrel.png_i_j: -362909496
       barrel_0: -8568042794190644651
+      barrel_0_0: 1349733869
+      barrel_0_1: -1754365908
       barrel_1: -1209127185579228243
+      barrel_1_0: 2013522651
+      barrel_1_1: -381039940
       barrel_2: -7921435704551551082
+      barrel_2_0: -184623429
+      barrel_2_1: 2026353629
+      barrel_3_0: 2030246577
+      barrel_3_1: 780496441
       barrel_i_j: 862364616
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0

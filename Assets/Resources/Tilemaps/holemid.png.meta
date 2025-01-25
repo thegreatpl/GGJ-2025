@@ -119,7 +119,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: holemid_i_j
+      name: holemid_0_0
       rect:
         serializedVersion: 2
         x: 0
@@ -134,14 +134,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac89891e0fcbea54ea9eb25a6c9660ba
-      internalID: 1599485572
+      spriteID: c9b39adcbcc537c42844c9dbb16496dd
+      internalID: 1699858494
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holemid_i_j
+      name: holemid_0_1
       rect:
         serializedVersion: 2
         x: 0
@@ -156,14 +156,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19c0354e14f41db47a81a0d639360e28
-      internalID: -1952831524
+      spriteID: 4f63cf917cd1b8449916a19c52561ef7
+      internalID: -561317661
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holemid_i_j
+      name: holemid_0_2
       rect:
         serializedVersion: 2
         x: 0
@@ -178,14 +178,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7f8832f5c83f0c4c92b32c806c6a006
-      internalID: -1011721904
+      spriteID: 3096a412b5e47584c8cba6a7842ad487
+      internalID: -485413368
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holemid_i_j
+      name: holemid_0_3
       rect:
         serializedVersion: 2
         x: 0
@@ -200,14 +200,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c41cad4ebd0f6f940bbb2bc3c55d7b06
-      internalID: -1213702733
+      spriteID: d1e2837559e14ec40b257a6c910ba7e8
+      internalID: 363870533
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holemid_i_j
+      name: holemid_0_4
       rect:
         serializedVersion: 2
         x: 0
@@ -222,14 +222,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 707d540a5ae44f74494116dc387e8a0d
-      internalID: 423703241
+      spriteID: 034edc6b3a86ff048be26faa78f6c5e0
+      internalID: -1667210428
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holemid_i_j
+      name: holemid_0_5
       rect:
         serializedVersion: 2
         x: 0
@@ -244,14 +244,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea1eb938da05b724d8d8412b5b04d978
-      internalID: 161977919
+      spriteID: 5169f216ec928ad4f8d32047c4e37b63
+      internalID: -896253344
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holemid_i_j
+      name: holemid_1_0
       rect:
         serializedVersion: 2
         x: 32
@@ -266,14 +266,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc13ee4121aaeb64396958eef491a77a
-      internalID: 29415662
+      spriteID: e3b9f6d4df6f12c4692a89d914dc93cb
+      internalID: 1231872692
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holemid_i_j
+      name: holemid_1_1
       rect:
         serializedVersion: 2
         x: 32
@@ -288,14 +288,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9031d39bdc44a464c995b8f129d6c71b
-      internalID: 472875494
+      spriteID: 4553ae42905a5204283a4fc4d1f9d09e
+      internalID: 1307161970
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holemid_i_j
+      name: holemid_1_2
       rect:
         serializedVersion: 2
         x: 32
@@ -310,14 +310,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40de7ddbaf17a9a438041d8a6d8a0a8e
-      internalID: -2125417433
+      spriteID: 06c12c35d1a2c3f478e7bb3ffe42a5a9
+      internalID: -1957218135
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holemid_i_j
+      name: holemid_1_3
       rect:
         serializedVersion: 2
         x: 32
@@ -332,14 +332,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5b7f31b1f0f8bc479bceaaec0cb134f
-      internalID: 595573722
+      spriteID: 784610287635ceb46b1e79ae5740508e
+      internalID: 67524103
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holemid_i_j
+      name: holemid_1_4
       rect:
         serializedVersion: 2
         x: 32
@@ -354,14 +354,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: faff843a867cbae45a95c5379be25b9f
-      internalID: -1357219813
+      spriteID: 7561806b38f5520468f5e6c5c9c80ed2
+      internalID: 1796734698
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holemid_i_j
+      name: holemid_1_5
       rect:
         serializedVersion: 2
         x: 32
@@ -376,14 +376,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc30a03862af4f24085a574ca797feab
-      internalID: 278178347
+      spriteID: 6d20254ae0c8a114391a2192778edd8b
+      internalID: -2073941296
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holemid_i_j
+      name: holemid_2_0
       rect:
         serializedVersion: 2
         x: 64
@@ -398,14 +398,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1accab5813dff74fb43e227c43636e9
-      internalID: 1396583317
+      spriteID: c6b84c07e08025142a99c2e22cb7f7be
+      internalID: 1682071434
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holemid_i_j
+      name: holemid_2_1
       rect:
         serializedVersion: 2
         x: 64
@@ -420,14 +420,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 197c744000ffa8349a65e10ba0e8b285
-      internalID: -60863782
+      spriteID: 27eb5292983bc504a8f0a7b4a12c115d
+      internalID: -904215021
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holemid_i_j
+      name: holemid_2_2
       rect:
         serializedVersion: 2
         x: 64
@@ -442,14 +442,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bebdefd26aca31346bdd724b49b74610
-      internalID: 189127731
+      spriteID: 4ce3cb75703767348a08638493cc9dbb
+      internalID: -780681526
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holemid_i_j
+      name: holemid_2_3
       rect:
         serializedVersion: 2
         x: 64
@@ -464,14 +464,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48d5373c6498056479284bc8b3238530
-      internalID: 733053314
+      spriteID: 80a3f50fd880cea49a5dcf4d11a67246
+      internalID: -343139079
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holemid_i_j
+      name: holemid_2_4
       rect:
         serializedVersion: 2
         x: 64
@@ -486,14 +486,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77bf5e1dc44b1ef44bde6578cbcdd4d2
-      internalID: -479585697
+      spriteID: bf9008bc72f26274a814e5ae25f965e2
+      internalID: -394510248
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: holemid_i_j
+      name: holemid_2_5
       rect:
         serializedVersion: 2
         x: 64
@@ -508,8 +508,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67369c4454446d84294ed1404e518bf6
-      internalID: -1776716051
+      spriteID: 71cb7e1561ecfcc469a80abff6dcc654
+      internalID: 1468455084
       vertices: []
       indices: 
       edges: []
@@ -530,8 +530,26 @@ TextureImporter:
     nameFileIdTable:
       Assets/Resources/Tilemaps\holemid.png_i_j: 1392285348
       holemid_0: -7426830078837256341
+      holemid_0_0: 1699858494
+      holemid_0_1: -561317661
+      holemid_0_2: -485413368
+      holemid_0_3: 363870533
+      holemid_0_4: -1667210428
+      holemid_0_5: -896253344
       holemid_1: 3805830242801761540
+      holemid_1_0: 1231872692
+      holemid_1_1: 1307161970
+      holemid_1_2: -1957218135
+      holemid_1_3: 67524103
+      holemid_1_4: 1796734698
+      holemid_1_5: -2073941296
       holemid_2: 3489732528208950519
+      holemid_2_0: 1682071434
+      holemid_2_1: -904215021
+      holemid_2_2: -780681526
+      holemid_2_3: -343139079
+      holemid_2_4: -394510248
+      holemid_2_5: 1468455084
       holemid_i_j: 1599485572
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
