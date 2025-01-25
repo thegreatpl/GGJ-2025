@@ -74,7 +74,11 @@ public class GameManager : MonoBehaviour
     IEnumerator StartNewGame(string Character)
     {
         SceneManager.LoadScene("SampleScene", LoadSceneMode.Single);
-
+        if (Camera == null)
+        {
+            Camera = Instantiate(PrefabManager.GetPrefab("Camera")).GetComponent<Camera>();
+            DontDestroyOnLoad(Camera);
+        }
         yield return null;       
         UIController.ShowMessage("Loading..."); 
         MapController = FindAnyObjectByType<MapController>();//there should only be one so... 

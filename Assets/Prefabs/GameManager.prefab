@@ -394,6 +394,12 @@ MonoBehaviour:
   - Name: Tiffany
     Type: Entities
     prefab: {fileID: 4267772376070005245, guid: 6b743772122e4a74faa3e1c311c42fb9, type: 3}
+  - Name: Camera
+    Type: GameAssets
+    prefab: {fileID: 471019513907261330, guid: 0becf7489c4552b4abf3f1452371c2eb, type: 3}
+  - Name: ExitPortal
+    Type: Objects
+    prefab: {fileID: 2091390326307028379, guid: b2d6951dabca0be48b090a3533027327, type: 3}
   - Name: Portal
     Type: Objects
     prefab: {fileID: 2091390326307028379, guid: 6bce8d847b87e634887039c1f7a15b56, type: 3}
