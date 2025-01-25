@@ -47,7 +47,9 @@ public class Attributes : MonoBehaviour
 
     public string DamageType; 
 
-    public float SightDistance; 
+    public float SightDistance;
+
+    public int Gold; 
 
 
     public OnDeath OnDeath;
@@ -77,6 +79,7 @@ public class Attributes : MonoBehaviour
         CurrentHP -= damage;
         if (CurrentHP < 0)
         {
+            attackerAttributes.Gold += Gold; //kill them, get gold. Probably should drop instead but... 
             Death();
         }
     }

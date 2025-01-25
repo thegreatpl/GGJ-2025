@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -6,6 +7,8 @@ public class HealthBarUI : MonoBehaviour
     public Image HealthBar;
 
     public Image Health;
+
+    public TextMeshProUGUI GoldText; 
 
     public Attributes PlayerAttributes; 
 
@@ -22,6 +25,8 @@ public class HealthBarUI : MonoBehaviour
         {
             Health.rectTransform.sizeDelta
                 = new Vector2((PlayerAttributes.CurrentHP / PlayerAttributes.MaxHP) * HealthBar.rectTransform.sizeDelta.x, HealthBar.rectTransform.sizeDelta.y);
+
+            GoldText.text = $"{PlayerAttributes.Gold}gp"; 
         }
         else
         {

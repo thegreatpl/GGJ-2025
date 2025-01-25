@@ -197,6 +197,7 @@ MonoBehaviour:
   AttackSpeed: 10
   DamageType: 
   SightDistance: 0
+  Gold: 3
 --- !u!114 &8013218748618024745
 MonoBehaviour:
   m_ObjectHideFlags: 0
