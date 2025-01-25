@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -7,6 +8,10 @@ public class GameManager : MonoBehaviour
 
 
     public TileManager TileManager; 
+
+    public MapController MapController;
+
+    public WorldGenerator WorldGenerator;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -19,11 +24,23 @@ public class GameManager : MonoBehaviour
         instance = this;
 
         TileManager = GetComponent<TileManager>();
+        WorldGenerator = GetComponent<WorldGenerator>();
+
+        StartCoroutine(StartNewGame()); 
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+
+    IEnumerator StartNewGame()
+    {
+        yield return StartCoroutine(TileManager.LoadTiles()); 
+        WorldGenerator.tileManager = TileManager;
+        WorldGenerator.map = MapController;
+        yield return StartCoroutine(WorldGenerator.GenerateWorld());
     }
 }

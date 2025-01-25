@@ -24,13 +24,15 @@ public class TileManager : MonoBehaviour
 
     public IEnumerator LoadTiles()
     {
-        var tiles = Resources.LoadAll("Tilemaps", typeof(Sprite)) as Sprite[];
+        var tiles = Resources.LoadAll("Tilemaps", typeof(Sprite));
         Tiles = new Dictionary<string, TileBase>();
 
         int idx = 0;
 
-        foreach (var tile in tiles)
+        foreach (var t in tiles)
         {
+            var tile = t as Sprite;
+            if (tile == null) continue;
 
             var tileobj = ScriptableObject.CreateInstance<Tile>(); 
             tileobj.name = tile.name;

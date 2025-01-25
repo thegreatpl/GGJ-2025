@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2015346684529509944}
   - component: {fileID: 6490682149724727369}
   - component: {fileID: -5735883686943861001}
+  - component: {fileID: 6854001097949078744}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -45,6 +46,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6cf9cb2d96fa62408a88c73f12b91e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TileManager: {fileID: 0}
+  MapController: {fileID: 0}
+  WorldGenerator: {fileID: 0}
 --- !u!114 &-5735883686943861001
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57,3 +61,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e16681463eec2e143bbdb3981fcd8f37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LoadTileThreshold: 20
+--- !u!114 &6854001097949078744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1607296477966559373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23371ebd0c27c514caffdebe46fd8a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  map: {fileID: 0}
+  tileManager: {fileID: 0}
+  BubbleWallTile: {fileID: 11400000, guid: 1d56a050c5529de42886b658efe7c24c, type: 2}
+  BiomeDefs:
+  - Name: grassland
+    Tilenames:
+    - grass_0_0
+    - grass_1_0
+    - grass_1_2
+    - grass_2_0
+    Tiles: []
+  - Name: forest
+    Tilenames:
+    - grass_0_0
+    - grass_1_0
+    - grass_1_2
+    - grass_2_0
+    Tiles: []
+  - Name: dirtlands
+    Tilenames:
+    - dirt2_0_0
+    - dirt2_1_0
+    - dirt2_1_2
+    Tiles: []
