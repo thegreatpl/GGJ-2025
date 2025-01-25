@@ -1,0 +1,363 @@
+{
+    "name": "Map",
+    "tiles": [
+        {
+            "tilename": "house_0_4",
+            "Layer": "wall",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "tilename": "house_0_5",
+            "Layer": "Foreground",
+            "x": 0,
+            "y": 1
+        },
+        {
+            "tilename": "house_0_5",
+            "Layer": "Foreground",
+            "x": 0,
+            "y": 2
+        },
+        {
+            "tilename": "house_0_1",
+            "Layer": "Foreground",
+            "x": 0,
+            "y": 3
+        },
+        {
+            "tilename": "house_0_2",
+            "Layer": "Foreground",
+            "x": 0,
+            "y": 4
+        },
+        {
+            "tilename": "house_0_3",
+            "Layer": "Foreground",
+            "x": 0,
+            "y": 5
+        },
+        {
+            "tilename": "house_1_4",
+            "Layer": "wall",
+            "x": 1,
+            "y": 0
+        },
+        {
+            "tilename": "house_1_5",
+            "Layer": "Foreground",
+            "x": 1,
+            "y": 1
+        },
+        {
+            "tilename": "house_1_5",
+            "Layer": "Foreground",
+            "x": 1,
+            "y": 2
+        },
+        {
+            "tilename": "house_1_1",
+            "Layer": "Foreground",
+            "x": 1,
+            "y": 3
+        },
+        {
+            "tilename": "house_0_1",
+            "Layer": "Foreground",
+            "x": 1,
+            "y": 4
+        },
+        {
+            "tilename": "house_0_2",
+            "Layer": "Foreground",
+            "x": 1,
+            "y": 5
+        },
+        {
+            "tilename": "house_1_4",
+            "Layer": "wall",
+            "x": 2,
+            "y": 0
+        },
+        {
+            "tilename": "house_8_5",
+            "Layer": "Foreground",
+            "x": 2,
+            "y": 1
+        },
+        {
+            "tilename": "house_1_5",
+            "Layer": "wall",
+            "x": 2,
+            "y": 1
+        },
+        {
+            "tilename": "house_8_6",
+            "Layer": "Foreground",
+            "x": 2,
+            "y": 2
+        },
+        {
+            "tilename": "house_1_5",
+            "Layer": "wall",
+            "x": 2,
+            "y": 2
+        },
+        {
+            "tilename": "house_1_1",
+            "Layer": "Foreground",
+            "x": 2,
+            "y": 3
+        },
+        {
+            "tilename": "house_1_1",
+            "Layer": "Foreground",
+            "x": 2,
+            "y": 4
+        },
+        {
+            "tilename": "house_3_3",
+            "Layer": "Foreground",
+            "x": 2,
+            "y": 5
+        },
+        {
+            "tilename": "house_1_4",
+            "Layer": "wall",
+            "x": 3,
+            "y": 0
+        },
+        {
+            "tilename": "house_1_5",
+            "Layer": "Foreground",
+            "x": 3,
+            "y": 1
+        },
+        {
+            "tilename": "house_1_5",
+            "Layer": "Foreground",
+            "x": 3,
+            "y": 2
+        },
+        {
+            "tilename": "house_1_1",
+            "Layer": "Foreground",
+            "x": 3,
+            "y": 3
+        },
+        {
+            "tilename": "house_1_1",
+            "Layer": "Foreground",
+            "x": 3,
+            "y": 4
+        },
+        {
+            "tilename": "house_4_3",
+            "Layer": "Foreground",
+            "x": 3,
+            "y": 5
+        },
+        {
+            "tilename": "house_1_4",
+            "Layer": "wall",
+            "x": 4,
+            "y": 0
+        },
+        {
+            "tilename": "house_1_5",
+            "Layer": "Foreground",
+            "x": 4,
+            "y": 1
+        },
+        {
+            "tilename": "house_1_5",
+            "Layer": "Foreground",
+            "x": 4,
+            "y": 2
+        },
+        {
+            "tilename": "house_1_1",
+            "Layer": "Foreground",
+            "x": 4,
+            "y": 3
+        },
+        {
+            "tilename": "house_1_1",
+            "Layer": "Foreground",
+            "x": 4,
+            "y": 4
+        },
+        {
+            "tilename": "house_4_3",
+            "Layer": "Foreground",
+            "x": 4,
+            "y": 5
+        },
+        {
+            "tilename": "house_1_4",
+            "Layer": "wall",
+            "x": 5,
+            "y": 0
+        },
+        {
+            "tilename": "house_1_5",
+            "Layer": "Foreground",
+            "x": 5,
+            "y": 1
+        },
+        {
+            "tilename": "house_1_5",
+            "Layer": "Foreground",
+            "x": 5,
+            "y": 2
+        },
+        {
+            "tilename": "house_1_1",
+            "Layer": "Foreground",
+            "x": 5,
+            "y": 3
+        },
+        {
+            "tilename": "house_1_1",
+            "Layer": "Foreground",
+            "x": 5,
+            "y": 4
+        },
+        {
+            "tilename": "house_4_3",
+            "Layer": "Foreground",
+            "x": 5,
+            "y": 5
+        },
+        {
+            "tilename": "house_3_5",
+            "Layer": "Foreground",
+            "x": 6,
+            "y": 0
+        },
+        {
+            "tilename": "house_1_4",
+            "Layer": "background",
+            "x": 6,
+            "y": 0
+        },
+        {
+            "tilename": "house_3_6",
+            "Layer": "Foreground",
+            "x": 6,
+            "y": 1
+        },
+        {
+            "tilename": "house_1_5",
+            "Layer": "Foreground",
+            "x": 6,
+            "y": 2
+        },
+        {
+            "tilename": "house_1_1",
+            "Layer": "Foreground",
+            "x": 6,
+            "y": 3
+        },
+        {
+            "tilename": "house_1_1",
+            "Layer": "Foreground",
+            "x": 6,
+            "y": 4
+        },
+        {
+            "tilename": "house_5_3",
+            "Layer": "Foreground",
+            "x": 6,
+            "y": 5
+        },
+        {
+            "tilename": "house_1_4",
+            "Layer": "wall",
+            "x": 7,
+            "y": 0
+        },
+        {
+            "tilename": "house_1_5",
+            "Layer": "Foreground",
+            "x": 7,
+            "y": 1
+        },
+        {
+            "tilename": "house_1_5",
+            "Layer": "Foreground",
+            "x": 7,
+            "y": 2
+        },
+        {
+            "tilename": "house_1_1",
+            "Layer": "Foreground",
+            "x": 7,
+            "y": 3
+        },
+        {
+            "tilename": "house_2_1",
+            "Layer": "Foreground",
+            "x": 7,
+            "y": 4
+        },
+        {
+            "tilename": "house_2_2",
+            "Layer": "Foreground",
+            "x": 7,
+            "y": 5
+        },
+        {
+            "tilename": "house_2_4",
+            "Layer": "wall",
+            "x": 8,
+            "y": 0
+        },
+        {
+            "tilename": "house_2_5",
+            "Layer": "Foreground",
+            "x": 8,
+            "y": 1
+        },
+        {
+            "tilename": "house_2_5",
+            "Layer": "Foreground",
+            "x": 8,
+            "y": 2
+        },
+        {
+            "tilename": "house_2_1",
+            "Layer": "Foreground",
+            "x": 8,
+            "y": 3
+        },
+        {
+            "tilename": "house_2_2",
+            "Layer": "Foreground",
+            "x": 8,
+            "y": 4
+        },
+        {
+            "tilename": "house_2_3",
+            "Layer": "Foreground",
+            "x": 8,
+            "y": 5
+        }
+    ],
+    "Biomes": [],
+    "Type": "Building",
+    "prefabs": [
+        {
+            "name": "KoboldSpearman",
+            "location": {
+                "x": -0.34885692596435549,
+                "y": -0.13370513916015626,
+                "z": 0.0
+            }
+        }
+    ],
+    "Size": {
+        "x": 14,
+        "y": 6
+    }
+}

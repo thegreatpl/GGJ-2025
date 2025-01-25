@@ -2,6 +2,7 @@ using System.IO;
 using System.Runtime.InteropServices;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class StructureHandler : MonoBehaviour
 {
@@ -18,8 +19,14 @@ public class StructureHandler : MonoBehaviour
     [MenuItem("MapGeneration/Save Structure")]
     public static void SaveStructure()
     {
+        var structureDesign = SceneAsset.FindAnyObjectByType<StructureDesign>();
+
+
         var structure = new StructureDef();
-        structure.name = "testing"; 
+        structure.name = structureDesign.StructureName;
+        structure.Biomes = structureDesign.Biomes;
+        structure.Type = structureDesign.Type.ToString();
+        structure.prefabs = new System.Collections.Generic.List<StructurePrefab>(); 
 
         structure.tiles = new System.Collections.Generic.List<StructureTile>(); 
 
@@ -77,8 +84,28 @@ public class StructureHandler : MonoBehaviour
                     structure.tiles.Add(new StructureTile() { x = xdx, y = ydx , tilename = backTile.name, Layer = "background" });
             }
 
+        structure.Size = (Vector2Int)bounds.size;
 
-        var json = EditorJsonUtility.ToJson(structure);
+        var objects =  SceneManager.GetActiveScene().GetRootGameObjects();
+
+        var baseloc = map.Foreground.CellToWorld(new Vector3Int(minX, minY)); 
+
+            //SceneAsset.FindObjectsByType<GameObject>(FindObjectsSortMode.None); 
+        foreach (var obj in objects)
+        {
+            if (obj.name == "Map")
+                continue;
+
+            structure.prefabs.Add(new StructurePrefab()
+            {
+                name = obj.name.Split(' ')[0],
+                location = obj.transform.position - baseloc
+            }); 
+
+
+        }
+
+        var json = EditorJsonUtility.ToJson(structure, true);
 
         File.WriteAllText($"Assets/Resources/Structures/{structure.name}.json", json);
     }
