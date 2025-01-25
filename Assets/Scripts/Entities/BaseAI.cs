@@ -1,4 +1,4 @@
-using NUnit.Framework;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem.XR;
@@ -54,5 +54,12 @@ public class BaseAI : MonoBehaviour
         {
             yield return obj.gameObject;
         }
+    }
+
+
+    public IEnumerator CountdownToDestruction(float seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+        Destroy(gameObject);
     }
 }

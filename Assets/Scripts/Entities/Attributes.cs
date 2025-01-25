@@ -5,6 +5,9 @@ public enum WeaponType
     Spear
 }
 
+
+public delegate void OnDeath(); 
+
 public class Attributes : MonoBehaviour
 {
     /// <summary>
@@ -47,6 +50,7 @@ public class Attributes : MonoBehaviour
     public float SightDistance; 
 
 
+    public OnDeath OnDeath;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -61,7 +65,10 @@ public class Attributes : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (CurrentHP < 0)
+        {
+            Death();
+        }
     }
 
 
@@ -76,7 +83,7 @@ public class Attributes : MonoBehaviour
 
     public void Death()
     {
-
+        OnDeath?.Invoke();
     }
 
 

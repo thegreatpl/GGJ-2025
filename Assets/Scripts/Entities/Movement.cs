@@ -30,7 +30,7 @@ public class Movement : MonoBehaviour
             return; 
         }
 
-        transform.position += (Vector3)Vector2.ClampMagnitude(MovementDirction, Attributes.MovementSpeed) * Time.deltaTime;
+        transform.position += (Vector3)Vector2.ClampMagnitude(MovementDirction, Attributes.MovementSpeed);// * Time.deltaTime;
 
         //animation stuff
         if (MovementDirction == Vector2.zero)

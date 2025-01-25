@@ -15,11 +15,21 @@ public class BasicEnemyAI : BaseAI
     {
         attributes = GetComponent<Attributes>();
         movement = GetComponent<Movement>();
+
+        attributes.OnDeath += () => {
+            movement.Animator.SetTrigger("Death");
+            StartCoroutine(CountdownToDestruction(1));
+        }; 
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (attributes.CurrentHP < 0)
+        {
+            return;
+        }
+
         if (TargetGameObject != null && TargetGameObject.CurrentHP > 0)
         {
             if (CanSee(TargetGameObject.gameObject))
