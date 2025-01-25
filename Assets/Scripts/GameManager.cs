@@ -5,6 +5,9 @@ public class GameManager : MonoBehaviour
 
     public static GameManager instance;
 
+
+    public TileManager TileManager; 
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -15,6 +18,7 @@ public class GameManager : MonoBehaviour
         }
         instance = this;
 
+        TileManager = GetComponent<TileManager>();
     }
 
     // Update is called once per frame
