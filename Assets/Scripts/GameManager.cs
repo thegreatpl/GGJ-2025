@@ -35,6 +35,8 @@ public class GameManager : MonoBehaviour
         PrefabManager = GetComponent<PrefabManager>();
         StructureManager = GetComponent<StructureManager>();    
 
+        DontDestroyOnLoad(gameObject);
+
         StartCoroutine(LoadGame()); 
     }
 
@@ -55,7 +57,7 @@ public class GameManager : MonoBehaviour
 
     IEnumerator StartNewGame()
     {
-      
+        MapController = FindAnyObjectByType<MapController>();//there should only be one so... 
         WorldGenerator.tileManager = TileManager;
         WorldGenerator.map = MapController;
         yield return StartCoroutine(WorldGenerator.GenerateWorld());
