@@ -1030,18 +1030,6 @@ PrefabInstance:
       propertyPath: MapController
       value: 
       objectReference: {fileID: 8379386092438523262}
-    - target: {fileID: 6854001097949078744, guid: f059e36f4857e7045b5ed929aa56c23c, type: 3}
-      propertyPath: SectorSize
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 6854001097949078744, guid: f059e36f4857e7045b5ed929aa56c23c, type: 3}
-      propertyPath: MaxBubbleSize
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 6854001097949078744, guid: f059e36f4857e7045b5ed929aa56c23c, type: 3}
-      propertyPath: MaxBubblesPerSector
-      value: 5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

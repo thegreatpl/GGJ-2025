@@ -19,6 +19,8 @@ public class WorldGenerator : MonoBehaviour
 
     public PrefabManager PrefabManager; 
 
+    public StructureManager StructureManager;
+
     public TileBase BubbleWallTile;
 
     public string BubbleWallTileName; 
@@ -45,6 +47,7 @@ public class WorldGenerator : MonoBehaviour
     void Start()
     {
         PrefabManager = GetComponent<PrefabManager>();
+        StructureManager = GetComponent<StructureManager>();
     }
 
     // Update is called once per frame
@@ -334,6 +337,15 @@ public class WorldGenerator : MonoBehaviour
         yield return null;
 
 
+        //try to generate structures. 
+
+
+        //generate trees
+        foreach (var bubble in sector.Bubbles)
+        {
+            GenerateTrees(bubble);
+                }
+
         sector.Level = 5;
     }
 
@@ -390,6 +402,62 @@ public class WorldGenerator : MonoBehaviour
 
     }
 
+    void GenerateTrees(Bubble bubble)
+    {
+        var treeposibilities = StructureManager.StructureDefs.Where(x => x.Biomes.Contains(bubble.BiomeName) && x.Type == "Tree");
 
+        if (!treeposibilities.Any())
+        {
+            return; //no tress for biome
+        }
+
+        var biome = BiomeDefs.FirstOrDefault(y => y.Name == bubble.BiomeName);
+
+        var attempts = bubble.Radius * biome.TreeMultiplier;
+
+        for (int id = 0; id < attempts; id++)
+        {
+            var tree = treeposibilities.RandomElement(bubble.Sector.Random);
+
+            var basloc = bubble.AvailableSpace.RandomElement(bubble.Sector.Random);
+
+            if (bubble.IsAvailable(basloc, tree.Size))
+            {
+                ApplyStructure(basloc, tree);
+                bubble.RemoveAvailable(basloc, tree.Size);
+            }
+
+        }
+
+    }
+
+    public void ApplyStructure (Vector2Int location, StructureDef structure)
+    {
+        foreach (var tile in structure.tiles)
+        {
+            TileLayer layer; 
+            switch(tile.Layer)
+            {
+                case "Background":
+                    layer = TileLayer.Background; break;
+                case "Wall": layer = TileLayer.Walls; break;
+                case "Foreground": layer = TileLayer.Foreground; break;
+                case "Detail": layer= TileLayer.Detail; break;
+                default:
+                    layer = TileLayer.Background; break; 
+            }
+            map.SetTile(new Vector3Int(tile.x + location.x, tile.y + location.y), tileManager.GetTile(tile.tilename), layer);
+        }
+
+        foreach (var prefab in structure.prefabs)
+        {
+            var pre = PrefabManager.GetPrefab(prefab.name);
+            if (pre != null)
+            {
+
+                Instantiate(pre, map.CellToWorld(location) + prefab.location, pre.transform.rotation);
+            }
+        }
+    }
 
 }

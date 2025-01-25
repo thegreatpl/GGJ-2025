@@ -13,5 +13,7 @@ public class BiomeDef
     public List<string> Tilenames; 
 
     public List<TileBase> Tiles;
+
+    public float TreeMultiplier; 
 }
 
