@@ -230,11 +230,11 @@ public class WorldGenerator : MonoBehaviour
     IEnumerator RaiseToLevel6(Sector sector)
     {
         if (sector.Level >= 6) yield break;
-        yield return StartCoroutine(RaiseToLevel4(sector));
+        yield return StartCoroutine(RaiseToLevel5(sector));
 
         var neighbours = GetNeighbourSectors(sector.Location);
         foreach (var neighbour in neighbours)
-            yield return StartCoroutine(RaiseToLevel4(neighbour)); //make sure neighbours are at level 3. 
+            yield return StartCoroutine(RaiseToLevel5(neighbour)); //make sure neighbours are at level 3. 
 
         sector.Level = 6;
     }
