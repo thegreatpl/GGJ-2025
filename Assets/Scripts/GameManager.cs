@@ -13,6 +13,10 @@ public class GameManager : MonoBehaviour
 
     public WorldGenerator WorldGenerator;
 
+    public PrefabManager PrefabManager;
+
+    public StructureManager StructureManager;
+
 
     public GameObject Player; 
 
@@ -28,8 +32,10 @@ public class GameManager : MonoBehaviour
 
         TileManager = GetComponent<TileManager>();
         WorldGenerator = GetComponent<WorldGenerator>();
+        PrefabManager = GetComponent<PrefabManager>();
+        StructureManager = GetComponent<StructureManager>();    
 
-        StartCoroutine(StartNewGame()); 
+        StartCoroutine(LoadGame()); 
     }
 
     // Update is called once per frame
@@ -39,9 +45,17 @@ public class GameManager : MonoBehaviour
     }
 
 
-    IEnumerator StartNewGame()
+    IEnumerator LoadGame()
     {
         yield return StartCoroutine(TileManager.LoadTiles()); 
+        yield return StartCoroutine(StructureManager.LoadStructures());
+
+        yield return StartCoroutine(StartNewGame()); 
+    }
+
+    IEnumerator StartNewGame()
+    {
+      
         WorldGenerator.tileManager = TileManager;
         WorldGenerator.map = MapController;
         yield return StartCoroutine(WorldGenerator.GenerateWorld());

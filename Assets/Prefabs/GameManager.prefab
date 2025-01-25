@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 6490682149724727369}
   - component: {fileID: -5735883686943861001}
   - component: {fileID: 6854001097949078744}
+  - component: {fileID: 5393048388928686140}
+  - component: {fileID: 2867141940103976958}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -105,3 +107,27 @@ MonoBehaviour:
   MaxBubblesPerSector: 10
   MinBubbleSize: 10
   MaxBubbleSize: 100
+--- !u!114 &5393048388928686140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1607296477966559373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77276309b55873a4585d30a192f9b5d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2867141940103976958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1607296477966559373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7563fd9c33fe94981b087c05508cfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
