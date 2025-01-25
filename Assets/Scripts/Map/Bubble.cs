@@ -15,5 +15,7 @@ public class Bubble
     public string BiomeName;
 
     public Sector Sector; 
+
+    public List<Bubble> ConnectedBubbles = new List<Bubble>();
 }
 

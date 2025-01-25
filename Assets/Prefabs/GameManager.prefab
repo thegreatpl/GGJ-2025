@@ -49,6 +49,7 @@ MonoBehaviour:
   TileManager: {fileID: 0}
   MapController: {fileID: 0}
   WorldGenerator: {fileID: 0}
+  Player: {fileID: 0}
 --- !u!114 &-5735883686943861001
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77,6 +78,7 @@ MonoBehaviour:
   map: {fileID: 0}
   tileManager: {fileID: 0}
   BubbleWallTile: {fileID: 11400000, guid: 1d56a050c5529de42886b658efe7c24c, type: 2}
+  BubbleWallTileName: holek_0_0
   BiomeDefs:
   - Name: grassland
     Tilenames:
@@ -98,3 +100,8 @@ MonoBehaviour:
     - dirt2_1_0
     - dirt2_1_2
     Tiles: []
+  Seed: 0
+  SectorSize: 500
+  MaxBubblesPerSector: 10
+  MinBubbleSize: 10
+  MaxBubbleSize: 100

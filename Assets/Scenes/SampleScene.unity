@@ -338,7 +338,7 @@ Transform:
   m_GameObject: {fileID: 423528263}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.95, y: -10.5, z: 0}
+  m_LocalPosition: {x: -2.2, y: -0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1338,6 +1338,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1fc99b7e19e308241953bba6d4e210e7, type: 3}
+--- !u!1001 &690777347596804602
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2091390326307028379, guid: 6bce8d847b87e634887039c1f7a15b56, type: 3}
+      propertyPath: m_Name
+      value: Portal
+      objectReference: {fileID: 0}
+    - target: {fileID: 8506159060820797075, guid: 6bce8d847b87e634887039c1f7a15b56, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 8506159060820797075, guid: 6bce8d847b87e634887039c1f7a15b56, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.311299
+      objectReference: {fileID: 0}
+    - target: {fileID: 8506159060820797075, guid: 6bce8d847b87e634887039c1f7a15b56, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8506159060820797075, guid: 6bce8d847b87e634887039c1f7a15b56, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8506159060820797075, guid: 6bce8d847b87e634887039c1f7a15b56, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8506159060820797075, guid: 6bce8d847b87e634887039c1f7a15b56, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8506159060820797075, guid: 6bce8d847b87e634887039c1f7a15b56, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8506159060820797075, guid: 6bce8d847b87e634887039c1f7a15b56, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8506159060820797075, guid: 6bce8d847b87e634887039c1f7a15b56, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8506159060820797075, guid: 6bce8d847b87e634887039c1f7a15b56, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6bce8d847b87e634887039c1f7a15b56, type: 3}
 --- !u!1001 &2596255475850127479
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1391,25 +1448,13 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6490682149724727369, guid: f059e36f4857e7045b5ed929aa56c23c, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 423528263}
+    - target: {fileID: 6490682149724727369, guid: f059e36f4857e7045b5ed929aa56c23c, type: 3}
       propertyPath: MapController
       value: 
       objectReference: {fileID: 814538487}
-    - target: {fileID: 6490682149724727369, guid: f059e36f4857e7045b5ed929aa56c23c, type: 3}
-      propertyPath: WorldGenerator
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6854001097949078744, guid: f059e36f4857e7045b5ed929aa56c23c, type: 3}
-      propertyPath: SectorSize
-      value: 500
-      objectReference: {fileID: 0}
-    - target: {fileID: 6854001097949078744, guid: f059e36f4857e7045b5ed929aa56c23c, type: 3}
-      propertyPath: BubbleWallTileName
-      value: holek_0_0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6854001097949078744, guid: f059e36f4857e7045b5ed929aa56c23c, type: 3}
-      propertyPath: MaxBubblesPerSector
-      value: 10
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1427,3 +1472,4 @@ SceneRoots:
   - {fileID: 853969459}
   - {fileID: 2596255475850127479}
   - {fileID: 814538489}
+  - {fileID: 690777347596804602}

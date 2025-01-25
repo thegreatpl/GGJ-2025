@@ -33,7 +33,10 @@ public class WorldGenerator : MonoBehaviour
     public int MaxBubbleSize = 100;
 
 
-    public Dictionary<Vector2Int, Sector> Sectors; 
+    public Dictionary<Vector2Int, Sector> Sectors;
+
+
+    private bool generated = false; 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -43,7 +46,14 @@ public class WorldGenerator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (!generated)
+            return;
+
+        var playerloc = GameManager.instance.Player.transform.position; 
+
+        var sector = GetSector((int)playerloc.x / SectorSize, (int)playerloc.y / SectorSize);
+        if (sector.Level < 6)
+            StartCoroutine(RaiseToLevel6(sector));
     }
 
 
@@ -76,6 +86,8 @@ public class WorldGenerator : MonoBehaviour
         yield return null;
         yield return StartCoroutine(RaiseToLevel6(GetSector(0, 0))); 
         yield return null;
+
+        generated = true; 
     }
 
 
@@ -181,7 +193,42 @@ public class WorldGenerator : MonoBehaviour
             yield return StartCoroutine(RaiseSectorToLevel2(neighbour)); //make sure neighbours are at level 2. 
 
 
-        //connections go here. Not yet ready. 
+        //connections go here.
+        //
+        if (sector.Bubbles.Count > 1)
+        {
+            //ensure all bubbles internally are connected. 
+            foreach (var bubble in sector.Bubbles)
+            {
+                int connectionNo = sector.Random.Next(1, sector.Bubbles.Count);
+                bool enoughConnections = false;
+                while (enoughConnections)
+                {
+                    var currentConnections = bubble.ConnectedBubbles.Where(x => x.Sector == sector).ToList();
+
+                    if (currentConnections.Count >= connectionNo)
+                    {
+                        enoughConnections = true; 
+                        break;
+                    }
+
+                    var otherbubble = sector.Bubbles.Where(x => x != bubble && !bubble.ConnectedBubbles.Contains(x)).RandomElement(sector.Random); 
+                    bubble.ConnectedBubbles.Add(otherbubble);
+                    otherbubble.ConnectedBubbles.Add(bubble);  
+                }
+            }
+        }
+        yield return null; 
+        //ensure that all sectors are connected. 
+        foreach (var neighbour in neighbours.Where(x => x.Level < 3))
+        {
+            var thisBubble = sector.Bubbles.RandomElement(sector.Random); 
+            var otherbubble = neighbour.Bubbles.RandomElement(neighbour.Random);
+
+            thisBubble.ConnectedBubbles.Add(otherbubble);
+            otherbubble.ConnectedBubbles.Add(thisBubble);
+
+        }
 
         sector.Level = 3;
     }
@@ -220,7 +267,7 @@ public class WorldGenerator : MonoBehaviour
             yield return StartCoroutine(RaiseToLevel4(neighbour)); //make sure neighbours are at level 3. 
 
 
-        //sector detail goes here, plus warp points. 
+        //sector detail goes here, plus warp points placement. 
 
 
         sector.Level = 5;
