@@ -20,7 +20,7 @@ GameObject:
   - component: {fileID: 7058867378575192227}
   m_Layer: 0
   m_Name: Entity
-  m_TagString: Untagged
+  m_TagString: Entity
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -195,6 +195,8 @@ MonoBehaviour:
   AttackDistance: 1
   AttackPower: 1
   AttackSpeed: 10
+  DamageType: 
+  SightDistance: 0
 --- !u!114 &8013218748618024745
 MonoBehaviour:
   m_ObjectHideFlags: 0

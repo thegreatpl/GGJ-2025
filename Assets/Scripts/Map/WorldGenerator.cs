@@ -4,17 +4,20 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEditor.ShaderKeywordFilter;
 using UnityEngine;
+using UnityEngine.Analytics;
 using UnityEngine.Tilemaps;
 using Random = System.Random; 
 
 public class WorldGenerator : MonoBehaviour
 {
 
-    Random Random; 
+   // Random Random; 
 
     public MapController map;
 
     public TileManager tileManager;
+
+    public PrefabManager PrefabManager; 
 
     public TileBase BubbleWallTile;
 
@@ -41,6 +44,7 @@ public class WorldGenerator : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        PrefabManager = GetComponent<PrefabManager>();
     }
 
     // Update is called once per frame
@@ -264,10 +268,59 @@ public class WorldGenerator : MonoBehaviour
 
         var neighbours = GetNeighbourSectors(sector.Location);
         foreach (var neighbour in neighbours)
-            yield return StartCoroutine(RaiseToLevel4(neighbour)); //make sure neighbours are at level 3. 
+            yield return StartCoroutine(RaiseToLevel4(neighbour)); //make sure neighbours are at level 4. 
 
 
-        //sector detail goes here, plus warp points placement. 
+        //sector detail goes here, plus warp points placement.
+
+        //generate portals first. 
+        var portalPrefab = PrefabManager.GetPrefab("Portal"); 
+        foreach(var bubble in  sector.Bubbles)
+        {
+            foreach (var otherbubble in bubble.ConnectedBubbles)
+            {
+                if (bubble.PortalsGenerated.Contains(otherbubble.CentrePoint))
+                    continue;
+                bool foundloc = false;
+                Vector2Int portalLoc;
+                do
+                {
+                    portalLoc = bubble.AvailableSpace.RandomElement(sector.Random);
+                    if (bubble.IsAvailable(portalLoc, new Vector2Int(1, 2)))
+                    {
+                        foundloc = true;
+                        bubble.RemoveAvailable(portalLoc, new Vector2Int(1, 2)); 
+                    }
+
+                } while (!foundloc);
+                foundloc = false;
+                Vector2Int otherportalLoc;
+                do
+                {
+                    otherportalLoc = otherbubble.AvailableSpace.RandomElement(sector.Random);
+                    if (otherbubble.IsAvailable(otherportalLoc, new Vector2Int(1, 2)))
+                    {
+                        foundloc = true;
+                        otherbubble.RemoveAvailable(portalLoc, new Vector2Int(1, 2));
+                    }
+
+                } while (!foundloc);
+
+                var portal1 = Instantiate(portalPrefab, map.CellToWorld(new Vector2Int(portalLoc.x, portalLoc.y+ 1)), portalPrefab.transform.rotation);
+                var portal1Scr = portal1.GetComponent<PortalScript>();
+                portal1Scr.PortalTo = map.CellToWorld(portalLoc);
+
+                var portal2 = Instantiate(portalPrefab, map.CellToWorld(new Vector2Int(otherportalLoc.x, otherportalLoc.y + 1)), portalPrefab.transform.rotation);
+                var portal2Scr = portal2.GetComponent<PortalScript>();
+                portal1Scr.PortalTo = map.CellToWorld(otherportalLoc);
+
+                bubble.PortalsGenerated.Add(otherbubble.CentrePoint);
+                otherbubble.PortalsGenerated.Add(bubble.CentrePoint);
+
+            }
+            yield return null;
+        }
+        yield return null;
 
 
         sector.Level = 5;
@@ -296,7 +349,8 @@ public class WorldGenerator : MonoBehaviour
             {
                 if (Vector2Int.Distance(centerTile, new Vector2Int(xdx, ydx)) < bubble.Radius)
                 {
-                    map.BackGround.SetTile(new Vector3Int(xdx, ydx), tiles.RandomElement(bubble.Sector.Random));
+                    map.SetTile(new Vector3Int(xdx, ydx), tiles.RandomElement(bubble.Sector.Random), TileLayer.Background);
+                    bubble.AvailableSpace.Add(new Vector2Int(xdx, ydx));
                 }
             }
         }
@@ -304,14 +358,14 @@ public class WorldGenerator : MonoBehaviour
         for (int r = 0; r <= Mathf.Floor(bubble.Radius * Mathf.Sqrt(0.5f)); r++)
         {
             int d = (int)Mathf.Floor(Mathf.Sqrt(bubble.Radius * bubble.Radius - r * r));
-            map.Walls.SetTile(new Vector3Int(centerTile.x - d, centerTile.y + r), BubbleWallTile);
-            map.Walls.SetTile(new Vector3Int (centerTile.x + d, centerTile.y + r),BubbleWallTile );
-            map.Walls.SetTile(new Vector3Int (centerTile.x - d, centerTile.y - r),BubbleWallTile );
-            map.Walls.SetTile(new Vector3Int (centerTile.x + d, centerTile.y - r),BubbleWallTile );
-            map.Walls.SetTile(new Vector3Int (centerTile.x + r, centerTile.y - d),BubbleWallTile );
-            map.Walls.SetTile(new Vector3Int (centerTile.x + r, centerTile.y + d),BubbleWallTile );
-            map.Walls.SetTile(new Vector3Int (centerTile.x - r, centerTile.y - d),BubbleWallTile );
-            map.Walls.SetTile(new Vector3Int (centerTile.x - r, centerTile.y + d),BubbleWallTile );
+            map.SetTile(new Vector3Int(centerTile.x - d, centerTile.y + r), BubbleWallTile, TileLayer.Walls);
+            map.SetTile(new Vector3Int (centerTile.x + d, centerTile.y + r),BubbleWallTile, TileLayer.Walls );
+            map.SetTile(new Vector3Int (centerTile.x - d, centerTile.y - r),BubbleWallTile, TileLayer.Walls );
+            map.SetTile(new Vector3Int (centerTile.x + d, centerTile.y - r),BubbleWallTile, TileLayer.Walls );
+            map.SetTile(new Vector3Int (centerTile.x + r, centerTile.y - d),BubbleWallTile, TileLayer.Walls );
+            map.SetTile(new Vector3Int (centerTile.x + r, centerTile.y + d),BubbleWallTile, TileLayer.Walls );
+            map.SetTile(new Vector3Int (centerTile.x - r, centerTile.y - d),BubbleWallTile, TileLayer.Walls );
+            map.SetTile(new Vector3Int (centerTile.x - r, centerTile.y + d),BubbleWallTile, TileLayer.Walls );
         }
 
     }

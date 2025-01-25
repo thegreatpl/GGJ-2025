@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6523210380783748876
+--- !u!1 &4267772376070005245
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,45 +8,45 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 182558749630982957}
-  - component: {fileID: 5533660085191673333}
-  - component: {fileID: 2554821222542091933}
-  - component: {fileID: 4183658135480879217}
-  - component: {fileID: 293765490286526713}
-  - component: {fileID: 8013218748618024745}
-  - component: {fileID: 7394394726494376134}
-  - component: {fileID: 2503321821460907727}
-  - component: {fileID: 7058867378575192227}
-  - component: {fileID: -5560168494500548003}
+  - component: {fileID: 4509678372798882492}
+  - component: {fileID: 6864322129150690759}
+  - component: {fileID: 117707140213332239}
+  - component: {fileID: 9205350261318046727}
+  - component: {fileID: 8551083182390217250}
+  - component: {fileID: 5429757460460041124}
+  - component: {fileID: 5573475976409582541}
+  - component: {fileID: 7147155799088902598}
+  - component: {fileID: 8499918659643831532}
+  - component: {fileID: 1916498442477193401}
   m_Layer: 0
-  m_Name: KoboldSpearman
+  m_Name: Tiffany
   m_TagString: Entity
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &182558749630982957
+--- !u!4 &4509678372798882492
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6523210380783748876}
+  m_GameObject: {fileID: 4267772376070005245}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.95, y: 0.7247178, z: 0}
+  m_LocalPosition: {x: -2.4933534, y: -0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &5533660085191673333
+--- !u!212 &6864322129150690759
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6523210380783748876}
+  m_GameObject: {fileID: 4267772376070005245}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -84,7 +84,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1379315423, guid: 28deb828078149e468d11dfd925960f3, type: 3}
+  m_Sprite: {fileID: -1292739351, guid: 8d262bb9497ab6b42a4484e9971700df, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -95,13 +95,13 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &2554821222542091933
+--- !u!61 &117707140213332239
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6523210380783748876}
+  m_GameObject: {fileID: 4267772376070005245}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
@@ -141,14 +141,14 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!50 &4183658135480879217
+--- !u!50 &9205350261318046727
 Rigidbody2D:
   serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6523210380783748876}
+  m_GameObject: {fileID: 4267772376070005245}
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
@@ -168,89 +168,102 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &293765490286526713
+--- !u!114 &8551083182390217250
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6523210380783748876}
+  m_GameObject: {fileID: 4267772376070005245}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c705eb508f917a54bb2d1dd4be239688, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Faction: Kobolds
+  Faction: player
   Level: 1
-  Strength: 5
-  Agility: 5
-  Constitution: 5
-  Wisdom: 5
-  Intelligence: 5
+  Strength: 10
+  Agility: 10
+  Constitution: 100
+  Wisdom: 10
+  Intelligence: 10
   Weapon: 0
   CurrentExp: 0
-  MaxHP: 10
-  CurrentHP: 0
+  MaxHP: 100
+  CurrentHP: 100
   MovementSpeed: 0.01
-  AttackDistance: 1
+  AttackDistance: 1.5
   AttackPower: 1
-  AttackSpeed: 10
-  DamageType: 
-  SightDistance: 0
---- !u!114 &8013218748618024745
+  AttackSpeed: 100
+  DamageType: piercing
+  SightDistance: 100
+--- !u!114 &5429757460460041124
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6523210380783748876}
+  m_GameObject: {fileID: 4267772376070005245}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e2e1c1cd03d07a849b3f5ecb6124d7ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attributes: {fileID: 0}
+  Attributes: {fileID: 8551083182390217250}
   MovementDirction: {x: 0, y: 0}
   attackCooldown: 0
-  Animator: {fileID: 0}
---- !u!114 &7394394726494376134
+  Animator: {fileID: 1916498442477193401}
+--- !u!114 &5573475976409582541
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6523210380783748876}
+  m_GameObject: {fileID: 4267772376070005245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36f0a6d2a2950b041a96ab65989ad9b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movement: {fileID: 5429757460460041124}
+--- !u!114 &7147155799088902598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4267772376070005245}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ed8b1ae4e4e52b34ea557c1c11e076fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CategoryHash: 0.000000011598237
-  m_labelHash: 0.027716199
+  m_CategoryHash: 1.1297751e-37
+  m_labelHash: 7.044914e-26
   m_SpriteKey: 0
-  m_SpriteHash: 182168245
---- !u!114 &2503321821460907727
+  m_SpriteHash: 747370420
+--- !u!114 &8499918659643831532
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6523210380783748876}
+  m_GameObject: {fileID: 4267772376070005245}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c29cff538c195c249b69c6f2236de67b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Library: []
-  m_SpriteLibraryAsset: {fileID: 11400000, guid: 85ce537d212b7bb419c658c65ba93abb, type: 2}
---- !u!95 &7058867378575192227
+  m_SpriteLibraryAsset: {fileID: 11400000, guid: 4969e7e02ad17af42952b3f80db00151, type: 2}
+--- !u!95 &1916498442477193401
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6523210380783748876}
+  m_GameObject: {fileID: 4267772376070005245}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 58c783ba7841de044b13cc34e3a5bc44, type: 2}
@@ -265,18 +278,3 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &-5560168494500548003
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6523210380783748876}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fef91226467c6cb4db3b989c8ad87719, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movement: {fileID: 0}
-  attributes: {fileID: 0}
-  TargetGameObject: {fileID: 0}

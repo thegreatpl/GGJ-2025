@@ -119,63 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &404480042
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 182558749630982957, guid: 1fc99b7e19e308241953bba6d4e210e7, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 5.756439
-      objectReference: {fileID: 0}
-    - target: {fileID: 182558749630982957, guid: 1fc99b7e19e308241953bba6d4e210e7, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.5618734
-      objectReference: {fileID: 0}
-    - target: {fileID: 182558749630982957, guid: 1fc99b7e19e308241953bba6d4e210e7, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 182558749630982957, guid: 1fc99b7e19e308241953bba6d4e210e7, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 182558749630982957, guid: 1fc99b7e19e308241953bba6d4e210e7, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 182558749630982957, guid: 1fc99b7e19e308241953bba6d4e210e7, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 182558749630982957, guid: 1fc99b7e19e308241953bba6d4e210e7, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 182558749630982957, guid: 1fc99b7e19e308241953bba6d4e210e7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 182558749630982957, guid: 1fc99b7e19e308241953bba6d4e210e7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 182558749630982957, guid: 1fc99b7e19e308241953bba6d4e210e7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6523210380783748876, guid: 1fc99b7e19e308241953bba6d4e210e7, type: 3}
-      propertyPath: m_Name
-      value: KoboldSpearman (1)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 1fc99b7e19e308241953bba6d4e210e7, type: 3}
 --- !u!1 &423528263
 GameObject:
   m_ObjectHideFlags: 0
@@ -675,120 +618,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &853969459
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 182558749630982957, guid: 1fc99b7e19e308241953bba6d4e210e7, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 8.671456
-      objectReference: {fileID: 0}
-    - target: {fileID: 182558749630982957, guid: 1fc99b7e19e308241953bba6d4e210e7, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.75859964
-      objectReference: {fileID: 0}
-    - target: {fileID: 182558749630982957, guid: 1fc99b7e19e308241953bba6d4e210e7, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 182558749630982957, guid: 1fc99b7e19e308241953bba6d4e210e7, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 182558749630982957, guid: 1fc99b7e19e308241953bba6d4e210e7, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 182558749630982957, guid: 1fc99b7e19e308241953bba6d4e210e7, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 182558749630982957, guid: 1fc99b7e19e308241953bba6d4e210e7, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 182558749630982957, guid: 1fc99b7e19e308241953bba6d4e210e7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 182558749630982957, guid: 1fc99b7e19e308241953bba6d4e210e7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 182558749630982957, guid: 1fc99b7e19e308241953bba6d4e210e7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6523210380783748876, guid: 1fc99b7e19e308241953bba6d4e210e7, type: 3}
-      propertyPath: m_Name
-      value: KoboldSpearman (2)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 1fc99b7e19e308241953bba6d4e210e7, type: 3}
---- !u!1001 &1240354260
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 182558749630982957, guid: 1fc99b7e19e308241953bba6d4e210e7, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 4.4030356
-      objectReference: {fileID: 0}
-    - target: {fileID: 182558749630982957, guid: 1fc99b7e19e308241953bba6d4e210e7, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3.3092394
-      objectReference: {fileID: 0}
-    - target: {fileID: 182558749630982957, guid: 1fc99b7e19e308241953bba6d4e210e7, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 182558749630982957, guid: 1fc99b7e19e308241953bba6d4e210e7, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 182558749630982957, guid: 1fc99b7e19e308241953bba6d4e210e7, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 182558749630982957, guid: 1fc99b7e19e308241953bba6d4e210e7, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 182558749630982957, guid: 1fc99b7e19e308241953bba6d4e210e7, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 182558749630982957, guid: 1fc99b7e19e308241953bba6d4e210e7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 182558749630982957, guid: 1fc99b7e19e308241953bba6d4e210e7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 182558749630982957, guid: 1fc99b7e19e308241953bba6d4e210e7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6523210380783748876, guid: 1fc99b7e19e308241953bba6d4e210e7, type: 3}
-      propertyPath: m_Name
-      value: KoboldSpearman
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 1fc99b7e19e308241953bba6d4e210e7, type: 3}
 --- !u!1839735485 &291582835217190902
 Tilemap:
   m_ObjectHideFlags: 0
@@ -870,63 +699,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1001 &690777347596804602
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2091390326307028379, guid: 6bce8d847b87e634887039c1f7a15b56, type: 3}
-      propertyPath: m_Name
-      value: Portal
-      objectReference: {fileID: 0}
-    - target: {fileID: 8506159060820797075, guid: 6bce8d847b87e634887039c1f7a15b56, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -10.19
-      objectReference: {fileID: 0}
-    - target: {fileID: 8506159060820797075, guid: 6bce8d847b87e634887039c1f7a15b56, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -4.311299
-      objectReference: {fileID: 0}
-    - target: {fileID: 8506159060820797075, guid: 6bce8d847b87e634887039c1f7a15b56, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8506159060820797075, guid: 6bce8d847b87e634887039c1f7a15b56, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8506159060820797075, guid: 6bce8d847b87e634887039c1f7a15b56, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8506159060820797075, guid: 6bce8d847b87e634887039c1f7a15b56, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8506159060820797075, guid: 6bce8d847b87e634887039c1f7a15b56, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8506159060820797075, guid: 6bce8d847b87e634887039c1f7a15b56, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8506159060820797075, guid: 6bce8d847b87e634887039c1f7a15b56, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8506159060820797075, guid: 6bce8d847b87e634887039c1f7a15b56, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 6bce8d847b87e634887039c1f7a15b56, type: 3}
 --- !u!1 &1161679671605677113
 GameObject:
   m_ObjectHideFlags: 0
@@ -1126,10 +898,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5393048388928686140, guid: f059e36f4857e7045b5ed929aa56c23c, type: 3}
-      propertyPath: Prefabs.Array.size
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6490682149724727369, guid: f059e36f4857e7045b5ed929aa56c23c, type: 3}
       propertyPath: Player
       value: 
@@ -1138,6 +906,18 @@ PrefabInstance:
       propertyPath: MapController
       value: 
       objectReference: {fileID: 8379386092438523262}
+    - target: {fileID: 6854001097949078744, guid: f059e36f4857e7045b5ed929aa56c23c, type: 3}
+      propertyPath: SectorSize
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854001097949078744, guid: f059e36f4857e7045b5ed929aa56c23c, type: 3}
+      propertyPath: MaxBubbleSize
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854001097949078744, guid: f059e36f4857e7045b5ed929aa56c23c, type: 3}
+      propertyPath: MinBubbleSize
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1471,9 +1251,5 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 619394802}
   - {fileID: 423528267}
-  - {fileID: 1240354260}
-  - {fileID: 404480042}
-  - {fileID: 853969459}
   - {fileID: 2596255475850127479}
   - {fileID: 2913789227230684784}
-  - {fileID: 690777347596804602}
