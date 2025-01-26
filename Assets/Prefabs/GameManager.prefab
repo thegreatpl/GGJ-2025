@@ -395,6 +395,9 @@ MonoBehaviour:
   - Name: OrcWarrior
     Type: Entities
     prefab: {fileID: 6523210380783748876, guid: e0f69f3e6b93f8741b9f57d6206d797b, type: 3}
+  - Name: SkeletonGuard
+    Type: Entities
+    prefab: {fileID: 6523210380783748876, guid: 6240e3cf35225c648a5500e51abe8b8d, type: 3}
   - Name: SkeletonWarrior
     Type: Entities
     prefab: {fileID: 6523210380783748876, guid: 864ec9223e1d0d543aad5d618bf0fd35, type: 3}
