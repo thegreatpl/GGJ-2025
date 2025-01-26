@@ -42,6 +42,8 @@ public class WorldGenerator : MonoBehaviour
 
     public Vector3 Spawn = Vector3.zero;
 
+    protected List<Sector> sectorsGenerating = new List<Sector>();
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -59,10 +61,14 @@ public class WorldGenerator : MonoBehaviour
             var playerloc = GameManager.instance.Player.transform.position;
 
             var sector = GetSector((int)playerloc.x / SectorSize, (int)playerloc.y / SectorSize);
-            if (sector.Level < 6)
+            if (sector.Level < 6 && !sectorsGenerating.Contains(sector))
+            {
                 StartCoroutine(RaiseToLevel6(sector));
+                sectorsGenerating.Add(sector);
+            }
         }
     }
+
 
 
     public IEnumerator GenerateWorld(int seed = 0)

@@ -99,7 +99,7 @@ public class Attributes : MonoBehaviour
 
     public void CalculateValues()
     {
-        MovementSpeed = (float)Agility / 1000;
+        MovementSpeed = (float)Agility / 500;
 
         MaxHP = Constitution * Level * 1.5f;
 
